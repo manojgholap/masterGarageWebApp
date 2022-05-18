@@ -1,0 +1,147 @@
+.addchauffer{
+    display:flex;
+    justify-content: space-evenly;
+}
+.picklocation{
+    width: 342px;
+    text-decoration: none;
+    height:60px;
+    background-color:#F8F9FA;
+    border:none;
+}
+.picklocation1{
+    width: 240px;
+    text-decoration: none;
+    height:60px;
+    background-color:#F8F9FA;
+    border:none;
+}
+.locationdot{
+position: absolute;
+z-index: 2;
+display: block;
+width: 2.375rem;
+height: 3.375rem;
+margin-top:10px;
+line-height: 2.375rem;
+text-align: center;
+pointer-events: none;
+
+}
+.locationdot img{
+    width:15px;
+    height:15px;
+}
+.pickdrop img{
+    width:39.71px;
+    height:30.82px
+}
+.pickdrop{
+       margin-top:50px;
+}
+.bothtrip{
+    display:flex;
+    justify-content:space-between;
+}
+.bothtrip i{
+    font-size: 25px;
+}
+.choosetype{
+    display:flex;
+    justify-content:space-between;
+}
+.choosetype h5{
+    color:#00155A !important;
+    font-size:20px;
+    font-weight:bolder
+}
+.bothtrip p{
+    color:#2650D8;
+    font-weight: bolder;
+}
+.roundtrip{
+    color:#999999 !important;
+    font-weight:bolder;
+}
+.hour{
+    color:#2650D8;
+    font-weight: bolder;
+}
+.days{
+    color:#999999 !important;
+    font-weight:bolder;
+}
+.menualclass{
+    display:flex;
+    justify-content:space-evenly;
+    margin-right: 20px;
+}
+.Choosebtn button{
+  border:none;
+  height:34;
+  padding:10px;
+  margin-left: 20px;
+  border-radius: 15px;
+  color:#00155A
+}
+.Choosebtn button:hover{
+    background-color:#2650D8;
+    color:#fff
+}
+.datetimeesti{
+    display:flex;
+    justify-content:space-evenly;
+}
+.datetimeesti img{
+    width:555.19px;
+    height:45.75px;
+}
+.locationdeco h5{
+    color:#00155A !important;
+    font-size:20px;
+    font-weight:bolder
+}
+.paymentflex{
+    display:flex;
+    justify-content:space-between;
+    border-bottom: 1px solid #D8D8D8;
+}
+.chauffpay img{
+    width:100px;
+    height:100px;
+}
+.starsize p{
+    color:#00155A !important;
+    font-weight:bolder;
+}
+.starsize small{
+    color:#00155A;
+}
+.offersize{
+    color:#B92100 !important;
+}
+.starsize img{
+    width:112px;
+    height:22px;
+}
+.offersize img{
+    width:25px;
+    height:25px;
+}
+.cardoffer{
+    display:flex;
+}
+.cashcard{
+    margin-top: 50px;
+    display: flex;
+}
+.cashcard h4{
+color:#2650D8;
+}
+.cashcard i{
+    margin-top: 5px;
+    margin-left:10px;
+    color:#999999 !important;
+    width:17.51px !important;
+    height:17px !important;
+}

@@ -1,0 +1,450 @@
+.qrcode1 i {
+    font-size: 120px;
+}
+.qrcode1 h6{
+    margin-left: 10px;
+}
+.booking1 {
+    border-radius: 30px;
+    box-shadow: 0 0 10px 0 #00000040;
+    border: rgba(149, 157, 165, 0.2);
+}
+.innercard1 {
+    display: flex;
+}
+.pickup {
+    margin-right: 20px;
+}
+.pickup h5{
+    color:#2650d8;
+    font-weight:bold;
+}
+.downloadqr1 {
+    margin-left: 5px;
+    color: #2650d8 !important;
+}
+
+.btnjobcard1 {
+    border-radius: 20px;
+    background-color: #2650d8;
+    width: 120px;
+    height: 40px;
+    border: none;
+    color: #fff;
+}
+.cardText1 {
+    display: flex;
+    justify-content: center;
+    color: #999999;
+    margin: 20px;
+}
+
+.schedulTime1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.schedulTime1 h5 {
+    color: #00155a;
+}
+.schedulTime1 p {
+    color: #5d6186;
+}
+
+.carddkk {
+    height: 610.32px !important;
+    width: 442px;
+}
+
+.payfooter12 {
+    margin-top: 35px;
+    border-radius: 0px 0px 30px 30px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #2650d8 !important;
+    color: #fff;
+}
+.payfooter13 {
+margin-top:87px !important;
+    border-radius: 0px 0px 30px 30px;
+    margin-top: 26px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #2650d8;
+    color: #fff;
+}
+.cardtk {
+    border-radius: 30px 30px 0px 0px;
+    box-shadow: 0 0 10px 0 #00000040;
+    border: rgba(149, 157, 165, 0.2);
+    height: 545.32px;
+    width: 442px;
+    margin-top: 17px;
+
+}
+.cardtkk1{
+    border-radius: 30px;
+    box-shadow: 0 0 10px 0 #00000040;
+    border: rgba(149, 157, 165, 0.2);
+    height: 610.32px;
+    width: 442px;
+    margin-top:8px;
+}
+.cardtrack {
+    margin-top: 10px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px 0 #00000040;
+    border: rgba(149, 157, 165, 0.2);
+    height: 610.32px;
+    width: 442px;
+}
+.payfooter1 {
+    width: 442px;
+    margin-top: -30px;
+    border-radius: 0px 0px 30px 30px !important;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #2650d8 !important;
+    color: #fff;
+}
+.payfooter12 {
+    width: 442px;
+    border-radius: 0px 0px 30px 30px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #2650d8;
+    color: #fff;
+}
+.payAmount1 {
+    display: flex;
+    line-height: 5px;
+}
+.cardSize1 i {
+    font-size: 30px;
+    margin-right: 10px;
+    margin-top: 20px;
+    color: #fff !important;
+}
+.total1 {
+    margin-top: 20px;
+    justify-content: center;
+    font-size: 20px;
+    color: #fff !important;
+}
+.total1 p {
+    color: #fff !important;
+    line-height: 0.4rem;
+}
+.total1 h3 {
+    font-weight: bolder;
+    margin-right: 10px;
+}
+.totalbtn1 {
+    border-radius: 15px;
+    color: #00155a !important;
+    margin-top: 15px;
+    padding:10px;
+    width: 100px;
+    background-color: #fff !important;
+    border: none;
+}
+.caricon1 i {
+    font-size: 30px;
+    color: #2650d8;
+    background-color: #f4f8ff;
+    border-radius: 50%;
+    padding: 10px 10px 8px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.call1 i {
+    font-size: 30px;
+    color: #fff;
+    background-color: #53bd8c;
+    border-radius: 50%;
+    padding: 10px 10px 8px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.carDetail1 {
+    display: flex;
+}
+.custominfo1 {
+    line-height: 5px;
+    font-size: 0.8rem;
+}
+.carDetail1 h5 {
+    color: #00155a;
+}
+.carbodes1 {
+    display: flex;
+}
+.trackcheck ul {
+    padding-left: 50px;
+}
+.carbody1 {
+    display: flex;
+    justify-content: space-between;
+}
+.carbodes1 ul li {
+    margin-bottom: 5px;
+}
+.CarPickDetail {
+    display: flex;
+    margin-left: 50px;
+}
+.CarPickDetail p {
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.CarPickDetail p:hover {
+    color: #2650d8;
+}
+.thanking {
+    margin-left: 90px;
+    margin-bottom: 20px;
+}
+.thanking1 {
+    display: flex;
+    justify-content: center;
+    font-size: 0.8rem;
+    text-align: center;
+}
+.thanking1 p {
+    text-align: left;
+    padding: 20px;
+}
+.btnalign {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.modifyreview {
+    border-radius: 15px;
+    background-color: #ed7d2b;
+    width: 120px;
+    height: 40px;
+    border: none;
+    color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.mahindrachoice {
+    color: #00155a;
+    font-size: bolder;
+}
+.sumdownload {
+    color: #ed7d2b;
+}
+textarea {
+    width: 100%;
+    height: 120px;
+    padding: 12px 20px;
+    color: #5d6186;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 20px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+.submitfeed {
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.notNowbtn {
+    border-radius: 15px;
+    margin-right: 40px;
+    background-color: #4ee59d;
+    width: 120px;
+    height: 40px;
+    border: none;
+    color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.Submitbtn {
+    border-radius: 15px;
+    background-color: #4ee59d;
+    width: 120px;
+    height: 40px;
+    border: none;
+    color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.endthank {
+    margin-top: 30px;
+    font-size: 20px;
+}
+.endthank h3 {
+    font-weight: bolder;
+}
+.thankletter {
+    font-weight: bolder;
+    color: #fff;
+    text-decoration: none;
+}
+.thankletter:hover {
+    color: #fff;
+}
+
+/*STEPPER*/
+.cartrack1{
+    display: flex;
+    justify-content:space-around;
+    padding-left:30px;
+
+}
+.cartrack1 img{
+    width:50.93px;
+    height:40.79px
+}
+.step {
+    position: relative;
+    min-height: 1em;
+    color: gray;
+  }
+  .title {
+    line-height: 1.5em;
+    
+  }
+  .caption {
+  
+  }
+  .step + .step {
+    margin-top: 1.5em
+  }
+  .step > div:first-child {
+    position: static;
+    height: 0;
+  }
+  .step > div:not(:first-child) {
+    margin-left: 1.5em;
+    padding-left: 1em;
+  }
+  /* Circle */
+.circle {
+    background: rgb(247, 239, 239);
+    position: relative;
+    width: 1em;
+    height: 1em;
+    line-height: 1em;
+    border-radius: 50%;
+    border-color: #5D6186;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0 0 0 1px black;
+  }
+  /* Vertical Line */
+.circle:after {
+    content: ' ';
+    position: absolute;
+    display: block;
+    top: 1px;
+    right: 50%;
+    bottom: 1px;
+    left: 50%;
+    height: 100%;
+    width: 1px;
+    border: dotted 1px;
+    transform: scale(1, 2);
+    transform-origin: 50% -100%;
+    background-color: rgba(0, 0, 0, 0.25);
+    z-index: -1;
+  }
+  
+  .steptop .circle{
+    box-shadow: 0 0 0 4px #D8D8D8; 
+  }
+  .step:last-child .circle:after {
+    display: none
+  }
+  .step.step-active {
+    color: #2650D8
+  }
+  .circle1 {
+    background: rgb(247, 239, 239);
+    position: relative;
+    width: 1em;
+    height: 1em;
+    line-height: 1em;
+    border-radius: 50%;
+    border-color: #5D6186;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.25);
+    font-weight: normal;
+  }
+  .circle1 i{
+      font-size: 12px !important;
+  }
+  .circle1:after {
+    content: ' ';
+    position: absolute;
+    display: block;
+    top: 1px;
+    right: 50%;
+    bottom: 1px;
+    left: 50%;
+    height: 100%;
+    width: 1px;
+    border: dotted 1px;
+    transform: scale(1, 2);
+    transform-origin: 50% -100%;
+    background-color: rgba(0, 0, 0, 0.25);
+    z-index: -1;
+  }
+
+
+/*STEPEND*/
+.circle12 {
+    background: rgb(247, 239, 239);
+    position: relative;
+    width: 1em;
+    height: 1em;
+    line-height: 1em;
+    border-radius: 50%;
+    border-color: black;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.25);
+    font-weight: normal;
+  }
+  .circle12 i{
+      font-size: 12px !important;
+  }
+  .circle12:after {
+    content: ' ';
+    position: absolute;
+    display: block;
+    top: 1px;
+    right: 50%;
+    bottom: 1px;
+    left: 50%;
+    height: 100%;
+    width: 1px;
+    transform-origin: 50% -100%;
+    background-color: rgba(0, 0, 0, 0.25);
+    z-index: -1;
+  }
+  .step-active1 .circle12{
+ 
+    background-color: #53BD8C;
+
+  }
+
+  .step-active1 >div:last-child {
+      border:none !important
+  }
+   .step-active1 .circle1{
+ 
+    background-color: #53BD8C;
+
+  }
+  .step.step-active .circle {
+    background-color: #2650D8;
+  }
+ 
+  .first{
+      margin-bottom:25px;
+    
+  }
+  .first1{
+    margin-bottom:30px
+}

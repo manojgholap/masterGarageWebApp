@@ -1,0 +1,51 @@
+.poppins20M{
+    color:#2650D8;
+    font-size:20px;
+    font-weight: 400;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.OpenSans25B{
+    color:#00155A;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+.ChaufferList{
+    list-style-type: none;
+    padding: 0px;
+}
+.poppins30B{
+    color:#00155A;
+    font-size:30px;
+    font-weight: bold;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.CategoryList{
+    list-style-type: none;
+    display: flex;
+    padding-top: 20px;
+}
+.CategoryItems{
+    width:400px;
+    height:200px;
+    text-align: center;
+    background-color: #F4F8FF;
+    border:none;
+    border-radius:20px;
+}
+.poppins22B{
+    color:#00155A;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.TotalPayment {
+    border-radius: 25px;
+    padding-bottom: 10px;
+    box-shadow: 0 0 10px 0 #00000040;
+    width:420px;
+    height:600px;
+}

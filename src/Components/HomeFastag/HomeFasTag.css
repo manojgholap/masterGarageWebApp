@@ -1,0 +1,138 @@
+.poppins46{
+    color:#00155A;
+    font-size: 46px;
+    font-weight: 500;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.poppins18{
+    color:#00155A;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;  
+}
+.poppins20{
+    color:#00155A;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;  
+}
+.poppins22{
+    color:#fff;
+    font-size:22px;
+    font-weight: bold;
+    margin:0px;
+}
+.poppins15{
+    color:#2650D8;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif; 
+}
+.poppins15bold{
+    color:#2650D8;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif; 
+
+}
+.poppins15light{
+    color:#999999;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.green12{
+    color:#53BD8C;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+.HomeFastaglist{
+    list-style-type: none;
+    display: flex;
+    padding: 0px;
+    margin-top:20px;    
+}
+.HomeFastaglist >li{
+    width: 148px;
+    height:200px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #F4F8FF;
+    margin:10px;
+    text-align: center;
+}
+.cards{
+    list-style-type: none;
+    display: flex;
+    padding: 0px;
+    margin:0px;
+}
+.cardsScrollBox{
+    height: 100%;
+    padding: 0px;
+    margin:0px;
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-x: scroll; 
+}
+.cards > li{
+    padding: 10px 5px;
+}
+.cardsScrollBox::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+  }
+.yellowcard{
+    background-image: url('../../Images/YellowShade.png');
+    width:400px;
+    height:100%;
+    border-radius:20px;
+} 
+.greycard{
+    background-image: url('../../Images/GreyShade.png');
+    width:400px;
+    height:218px;
+    border-radius:20px;
+}
+.bluecard{
+    background-image: url('../../Images/BlueShade.png');
+    width:400px;
+    height:218px;
+    border-radius:20px;
+}
+.greybg{
+    background-color: #F8F9FA;
+    border-radius: 0px 20px 20px 0px;
+    border:none;
+    height:55px;
+    padding: 10px 0px 20px 0px;
+
+} 
+.Rechargebtn{
+    background-color: #2650D8;
+    color:#fff;
+    width:100px;
+    border:none;
+    height:36px;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 30px;
+} 
+.proceedbtn{
+    color:#fff;
+    background-color: #2650D8;
+    border-radius: 10px;
+    border: none;
+    width:150px;
+    height:40px;
+} 
+.InputNum{
+    width:270px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #2650D852;
+}

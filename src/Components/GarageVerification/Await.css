@@ -1,0 +1,142 @@
+*{
+    font-family: 'Poppins', sans-serif;
+} 
+.bookawait{
+  text-decoration:none;
+  font-weight:bold;
+}
+.bookawait1{
+  text-decoration:none;
+ margin-left:10px;
+ color:black;
+ font-size:18px
+}
+.boxlast{
+  width:489.68px;
+  height:590.32px;
+  border-radius: 30px;
+}
+.poppins25M{
+    color:#00155A;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom:0px;
+    font-family: 'Poppins', sans-serif;
+}
+.poppins20M{
+    color:#00155A;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom:0px;
+    font-family: 'Poppins', sans-serif;
+}
+.poppins22M{
+    color:#00155A;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom:0px;
+    font-family: 'Poppins', sans-serif;
+}
+.paylater{
+  color:#F45C3B !important;
+
+}
+.AwaitConfirmbox{
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    border-radius: 30px;
+    padding-bottom: 10px;
+    box-shadow: 0 0 10px 0 #00000040;
+    height:590px;
+}
+.verthr{
+    border-right: 1px solid #CBCBCB;
+    border-top-width: 1px;
+}
+i.far.fa-comment.avtarvthr {
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #53BD8C;
+    color: #fff;
+    box-shadow: 0px 0 10px 0 #bac1cd;
+}
+.bookingpara {
+    font-size: 18px;
+    color: #5d6186;
+    margin-bottom: 0px;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.await_cont1{
+  width:489.68px;
+  height:616px !important;
+}
+
+  .pagesize12{
+      display:flex;
+      margin-top:-10px;
+      font-size: 12px;
+  }
+  .pagesize12 li{
+    list-style: none;
+    margin-right: 48px;
+  
+}
+.pagesize111{
+    display:flex;
+    margin-top:-10px;
+    font-size: 10px;
+}
+.pagesize111 li{
+  list-style: none;
+  margin-right: 79px;
+
+}
+  /* PROGRESS BAR */
+.await_main {
+  justify-content:center;
+   width: 150px !important;
+   height: 5px;
+    background-color:#2650D8;
+    margin-bottom: 50px;
+    border-radius: 40px;
+   margin-left:150px
+  }
+
+                
+  .await_main .await_sub {
+    width:40% !important;
+    height:5px;
+    border-radius: 40px;
+    background-color: #4EE59D!important;
+  }
+      /* PROGRESS BAR */
+.progressbar112 {
+  width: 488px;
+  height: 10px;
+   background-color:#D8D8D8;
+   margin-bottom: 50px;
+   border-radius: 40px;
+ }
+
+               
+ .progressbar112 .prog131 {
+   width:100% !important;
+   height:10px;
+   border-radius: 40px;
+   background-color: #ED7D2B!important;
+ }              
+  .progressbar112 .prog11 {
+    width:100% !important;
+    height:10px;
+    border-radius: 40px;
+    background-color: #53BD8C !important;
+  }
+  .pagename{
+      font-size:12px;
+     display:flex;
+     justify-content:space-between;
+  }

@@ -1,0 +1,114 @@
+.cardappoint{
+    width:490px;
+}
+.firstchoise img{
+    width:101px;
+    height:99px;
+}
+.firstchoise{
+    display:flex;
+}
+.bookinfo p{
+    color:#6A6363
+}
+.bookcolor p{
+    color:#6A6363
+}
+.bookinfo small{
+    color:#2650D8
+}
+.appointdetails small,h6{
+    color:#6A6363
+}
+.appointdetails p{
+    color:black
+}
+.cardappoint p{
+    color:#00155A !important;
+    
+}
+.servicedetails h6{
+    display:flex;
+    justify-content:space-between;
+    font-weight:normal !important;
+}
+.totalbook p{
+    color:#D8D8D8 !important;
+}
+.promo1 h5,p{
+    color:#2650D8 !important;
+}
+.promo1 p{
+    color:#2650D8 !important;
+}
+.promo2 h5,p{
+    color:#ED7D2B !important;
+}
+.promo2 p{
+    color:#ED7D2B !important;
+}
+.grandtotal h5,p{
+    color:#00155A !important;
+}
+.grandtotal p{
+    color:#00155A !important;
+    font-weight:bold;
+}
+.garagdes{
+    text-align:right !important;
+}
+.grandsub h6{
+    display:flex !important;
+}
+.totalsaving h6{
+    color:#D8D8D8 !important;
+}
+.totalsaving1 h6{
+    color:#00155A !important;
+    font-weight:bolder;
+}
+.totalsaving p{
+    color:#D8D8D8 !important;
+}
+.totalsaving1 p{
+    color:#00155A !important;
+    font-weight:bolder;
+}
+.totalsaving p{
+    margin-right:130px !important;
+}
+.totalsaving1 p{
+    margin-right:130px !important;
+}
+.reedem{
+    width:353px;
+    
+    display:flex;
+    justify-content:center;
+    text-align:center
+}
+.reedemcont{
+    border-bottom:1px solid #D8D8D8;
+}
+.reedemcont h6{
+    color:#00155A !important;
+    font-weight:bold;
+}
+.reedemcont h4{
+    color:#4EE59D !important;
+}
+.reedemcont img{
+    width:62.09px;
+    height:62.09px;
+    position:absolute;
+    text-align:center;
+     margin-top:-50px;
+    
+}
+.keepheart{
+    color:#ED7D2B !important;
+}
+.reedemfoot p{
+    color:#ED7D2B !important;
+    font-weight:bold;
+}

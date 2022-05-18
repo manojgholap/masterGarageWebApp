@@ -1,0 +1,77 @@
+.AllChallans{
+    width:100%;
+    height:600px;
+    background-color: #fff;
+}
+.ChallansBox{
+    width:100%;
+    height:194px;
+    background-color: #F8F9FA;
+    border:1px solid #EAEAEA;
+    border-radius:20px;
+}
+.table1{
+    border-collapse: separate;
+    border-spacing: 15px;
+    border-right: 1px solid #2650D8;
+    height:155px;
+}
+td{
+    text-align: left;
+}
+.poppins15RL{
+    color:#999999;
+    font-size:15px;
+    font-family: 'Poppins', sans-serif;
+}
+.poppins15Blue{
+    color:#00155A;
+    font-size:15px;
+    font-family: 'Poppins', sans-serif;
+}
+.poppins18SB{
+    color:#00155A;
+    font-size:18px;
+    margin:0px;
+    font-weight: 400;
+    font-family: 'Poppins , sans-serif';
+}
+.poppins15M{
+    color:#2650D8;
+    font-size: 15px;
+    font-family: 'Poppins , sans-serif';
+}
+.poppins18Open{
+    color:#2650D8;
+    font-size: 18px;
+    font-weight: bold;
+
+    font-family: 'Open Sans , sans-serif'; 
+}
+.ViewDetails{
+    color:#2650D8;
+    border:1px solid #2650D8;
+    font-size:15px;
+    width:120px;
+    height:40px;
+    border-radius:10px;
+    background-color: #fff;
+}
+.PayNow{
+    color:#fff;
+    border:1px solid #2650D8;
+    font-size:15px;
+    width:120px;
+    height:40px;
+    border-radius:10px;
+    background-color: #2650D8;
+}
+.ViewReciept{
+    color:#fff;
+    border:1px solid #2650D8;
+    font-size:15px;
+    width:144px;
+    height:40px;
+    border-radius:10px;
+    background-color: #2650D8;
+}

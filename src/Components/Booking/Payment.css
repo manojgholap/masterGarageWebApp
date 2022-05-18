@@ -1,0 +1,354 @@
+.preferpayment {
+    padding: 30px;
+}
+.pay_now {
+    text-decoration: none;
+}
+
+.paynow_cont{
+    height: 589px;
+    padding: 0px;
+    margin: 0px;
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow: scroll;
+}
+
+.paynow_cont::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+
+.pay_now1 {
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 17px;
+    color: black;
+}
+.pay_det{
+    height: 589px;
+    padding: 0px;
+    margin: 0px;
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow: scroll;
+}
+
+.pay_det::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+
+.cardback {
+    background-color: #f4f3f3;
+    border: none !important;
+    border-radius: 20px;
+}
+.cardback img {
+    width: 60px;
+}
+.card11 {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.paycard {
+    display: flex;
+}
+.cardText {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.radiosize {
+    padding-top: 20px;
+}
+.card13 {
+    display: flex;
+    justify-content: space-between;
+}
+.visadisplay {
+    display: flex;
+}
+.addcard {
+    display: flex;
+}
+.cardspay ul {
+    display: flex;
+    margin-left: 200px;
+}
+.aligncard {
+    display: flex;
+    padding-bottom: 30px;
+}
+.aligncard li {
+    margin-left: 10px;
+}
+
+.cardspay ul li img {
+    width: 50px;
+}
+.addcardalign {
+    display: flex;
+}
+.secondcard {
+    display: flex;
+}
+.selectcard {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.addmorecard {
+    color: #ffc107;
+}
+.leftbooksummery {
+    border-radius: 30px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.bookingsummery1 {
+    border: none;
+
+    font-size: 0.8rem;
+}
+.header1 {
+    display: flex;
+    justify-content: center;
+    color: #00155a;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    border-bottom: 1px solid #d8d8d8;
+}
+.totalsummer1 {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bolder;
+  
+}
+.borderbottom {
+    border-bottom: 1px solid #d8d8d8;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.totalsummer2 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+}
+.totalsummer2 p{
+    color: #2650d8 !important;
+}
+.totalsummer3 {
+    display: flex;
+    justify-content: space-between;
+    color: #ed7d2b;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+}
+.totalsummer3 p{
+    color: #ed7d2b !important;
+}
+.totalsummer4 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px 20px;
+}
+.totalsummer5 {
+    display: flex;
+    justify-content: space-between;
+}
+.totalsummer6 {
+    display: flex;
+    justify-content: space-between;
+    padding:15px;
+    font-weight: 20px;
+    border-bottom: 1px solid #d8d8d8;
+}
+.totalsummer7 {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bolder;
+    padding:20px
+}
+.totalsummer8 {
+    display: flex;
+    justify-content: space-between;
+}
+.totalsummer8 p{
+    color:#fff !important;
+}
+.pr2 {
+    margin-right: 15px !important;
+}
+.footer1 {
+    background-color: #2650d8;
+    color: #fff;
+    padding: 10px;
+    font-weight: bolder;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.thankfooter1 {
+    background-color: #53bd8c;
+    color: #fff;
+    padding: 10px;
+    font-weight: bolder;
+    border-radius: 0px 0px 10px 10px;
+}
+.thankfooter1:hover {
+    background-color: #53bd8c;
+    color: #fff !important;
+    padding: 10px;
+    font-weight: bolder;
+    border-radius: 0px 0px 10px 10px;
+}
+.yoursaving {
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkcolor i{
+    color: #53BD8C!important;
+    font-size:15px !important;
+}
+.nextpage {
+    text-decoration: none;
+    color: #fff;
+}
+.nextpage1 {
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    text-decoration: none;
+    color: #fff;
+}
+.nextpage1 i {
+    font-size: 30px;
+    margin-left: 20px;
+    color: #fff !important;
+}
+.nextpage1 h4:hover {
+    text-decoration: none;
+    color: #fff !important;
+}
+
+.thankcontain {
+    display: flex;
+    justify-content: center;
+    color: #00155a;
+    font-weight: bolder;
+}
+.rating1 {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.feeling {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: #5d6186;
+}
+.review12 {
+    display: flex;
+    justify-content: center;
+    margin-left: 90px;
+
+    width: 80%;
+    height: 150px;
+    padding: 12px 20px;
+    color: #5d6186;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 20px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+    margin-bottom: 30px;
+}
+.review12:hover {
+    border: none;
+}
+.btngroup1 {
+    display: flex;
+    justify-content: center;
+}
+.btnthank {
+    border-radius: 20px;
+    margin-right: 40px;
+    background-color: #2650d8;
+    width: 120px;
+    height: 40px;
+    border: none;
+    color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-bottom: 40px;
+}
+.btnthank:hover {
+    border: 2px solid #2650d8 !important;
+    border-radius: 20px;
+    background-color: #fff;
+    width: 120px;
+    height: 40px;
+    color: #2650d8;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-bottom: 40px;
+}
+.thankingreward {
+    padding: 20px;
+}
+.congo {
+    display: flex;
+    justify-content: center;
+}
+.congo p {
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+}
+.coin {
+    display: flex;
+    justify-content: center;
+}
+.coin h5 {
+    color: #00155a;
+    font-weight: bolder;
+}
+.coninimg {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.coninimg img {
+    width: 300px;
+}
+.thanktrans {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.morethank h3 {
+    color: #00155a;
+    font-weight: bolder;
+}
+.morethank p {
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+.masterlog {
+    display: flex;
+    padding: 20px;
+}
+.masterlog h5 {
+    width: 140px;
+    font-size: 30px;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-weight: bolder;
+    color: #2650d8;
+}
+.leftbooksummery {
+    width: 442px;
+    height: 510px;
+}

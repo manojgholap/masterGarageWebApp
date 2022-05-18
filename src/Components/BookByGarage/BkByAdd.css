@@ -1,0 +1,284 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.FirstBox{
+    width:100%;
+    background-color: #F4F8FF;
+    height:254px;
+}
+.Re_FirstBox{
+    width:100%;
+    background-color: #F4F8FF;
+    height:100px;
+    box-shadow:0 0 10px 0 #00000045;
+}
+.poppins25{
+    color:#00155A;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.OpenSans22{
+    color:#00155A;
+    font-size: 22px;
+    font-family:'Open Sans', sans-serif;
+    font-weight: bold;
+}
+.OpenSans18{
+    color:#00155A;
+    font-size: 18px;
+    font-family:'Open Sans', sans-serif;
+    font-weight: bold;
+}
+.OpenSans15{
+    color:#5D6186;
+    font-size: 15px;
+    font-family:'Open Sans', sans-serif;
+}
+
+.poppins18{
+    color:#00155A;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+.poppins15blue{
+    color:#00155A;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0px;
+
+}
+.poppins18bold{
+    color:#00155A;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+.poppins22{
+    color:#2650D8;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.poppins15{
+    color:#5D6186;
+    font-size: 15px;
+    font-family:  'Poppins', sans-serif;
+    font-weight:500;
+    margin-bottom: 0px;
+   
+}
+
+.poppins15light{
+    color:#5D6186;
+    font-size: 15px;
+    font-family:  'Poppins', sans-serif;
+    font-weight:300;
+    margin-bottom: 0px;
+   
+}
+.poppins12{
+    color:#999999;
+    font-size: 12px;
+    font-family:  'Poppins', sans-serif;
+    font-weight: 300;
+    margin-bottom: 0px;
+}
+.poppins12bold{
+    color:#5D6186;
+    font-size: 12px;
+    font-family:  'Poppins', sans-serif;
+    margin-bottom: 0px;
+
+}
+.stars{
+    padding-left: 50px;
+    margin-bottom: 0px;
+}
+.offers{
+    list-style-type: none;
+    display: flex;
+    padding: 10px;
+}
+.offers >li{
+    padding: 5px;
+}
+.Benefits{
+    list-style-type: none;
+    display: flex;
+    padding: 10px;
+    margin:0px;
+}
+.Benefits >li {
+    padding: 10px 20px;
+}
+i.fas.fa-search{
+    position: absolute;
+    z-index: 99;
+    top: 22px;
+    left: 25px;
+    color: #2650D8;
+}
+.SearchGarage{
+    width:264px;
+    height:60px;
+    position: relative;
+    font-size:15px;
+    padding: 10px 10px 10px 45px;
+    background-color: #F8F9FA;
+    border:1px solid #EAEAEA;
+    border-radius: 10px;
+}
+.Searchbox{
+    position: relative;
+}
+.ServiceOptions{
+    width:254px;
+    list-style-type:none;
+    border-right: 3px solid #4ee59d61;
+}
+.ServiceOptions > li{
+    padding: 20px 0px;
+    color:#00155A;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+.PeriodicService{
+    color:#2650D8;
+    font-size: 15px;
+    width:100%;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+.PeriodicService > ul ,li{
+    list-style-type: none;
+    font-size: 12px;
+    padding:10px 0px;
+    font-family: 500;
+}
+.PartTwoBgBox{
+    width:100%;
+    height:165px;
+    margin: 0px 0px;
+    border-radius: 10px;
+    background-color:#F8F9FA;
+}
+.Re_PartTwoBgBox{
+    width:100%;
+    height: 489px;
+    margin: 0px 0px;
+    border-radius: 10px;
+    background-color:#F8F9FA;
+}
+.Partaddcar{
+    width: 113px;
+    height: 42px;
+    color: #fff;
+    font-size: 15px;
+    float: right;
+    position: relative;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    background-color: #53BD8C;
+    border-radius: 5px;
+    border: none;
+    margin-top: -26px;
+}
+.Partaddservice{
+    width: 113px;
+    height: 42px;
+    color: #fff;
+    font-size: 15px;
+    float: right;
+    position: relative;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    background-color: #53BD8C;
+    border-radius: 5px;
+    border: none;
+    margin-top: -26px;
+}
+.Partcaradded{
+    width: 113px;
+    height: 42px;
+    color: #fff;
+    font-size: 15px;
+    float: right;
+    position: relative;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    background-color: #438969;
+    border-radius: 5px;
+    border: none;
+    margin-top: -26px;
+}
+.PartThreeBgBox {
+    width: 420px;
+    height: 392px;
+    border: none;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 0 #0000003b;
+}
+.Re2_PartThreeBgBox {
+    width: 420px;
+    height: 577px;
+    border: none;
+    text-align: left;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 0 #0000003b;
+}
+.Re_PartThreeBgBox {
+    width: 420px;
+    height: 392px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px -3px rgba(38,80,219,0.4), 0px 5px 8px rgba(38,80,219,0.4), -5px 5px 5px -3px rgba(38,80,219,0.4);
+    /* box-shadow: 0 0 8px 0 #2650DB; */
+}
+.PartThreeBgBoxTwo {
+    width: 420px;
+    height: 150px;
+    border: none;
+    background-color: #F4F8FF;
+    border-radius: 20px; 
+}
+.PartThreeSearch{
+    width: 207px;
+    height: 50px;
+    padding: 10px;
+    background-color: #F8F9FA;
+    border: #EAEAEA;
+    border-radius: 5px;
+}
+.Re_PartThreeSearch{
+    width: 207px;
+    height: 50px;
+    font-size:18px;
+    font-weight: bold;
+    padding-left: 30px;
+    background-color: #F8F9FA;
+    border: #EAEAEA;
+    color:#2650D8;
+    border-radius: 5px;
+}
+.PartThreebtn {
+    width: 120px;
+    height: 50px;
+    border: none;
+    background-color: #2650D8;
+    color:#fff;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.ShowMoreServices >ul ,li{
+    list-style-type: none;
+    padding: 5px 0px;
+}

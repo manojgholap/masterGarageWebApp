@@ -1,0 +1,48 @@
+.poppins46{
+    color:#00155A;
+    font-size: 46px;
+    font-weight: 500;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.poppins15light{
+    color:#999999;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.InputSearch{
+    color:#999999;
+    background-color: #F8F9FA;
+    border-radius: 10px;
+    width:283px;
+    height:50px;
+    padding: 10px;
+    box-shadow: 0 5px 5px -5px #333;
+    border:1px solid#EAEAEA;
+}
+.ViewChallan{
+    background-color: #2650D8;
+    color:#fff;
+    width:224px;
+    height:50px;
+    border:1px solid #2650D8;
+    font-size:18px;
+    border-radius: 6px;
+}
+.ChallanRowTwo{
+    width:100%;
+    height:276px;
+    background-color: #F4F8FF;
+}
+.ChallansList{
+    list-style-type: none;
+    display: flex;
+}
+.ChallanOption{
+    width:336px;
+    height:138px;
+    margin:20px 20px 20px 0px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 5px 5px -5px #333 ;
+}

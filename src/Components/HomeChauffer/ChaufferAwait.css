@@ -1,0 +1,46 @@
+.overlaybox{
+    opacity: 0.5;
+}
+.poppins15L{
+    color:#5D6186;
+    font-size: 15px;
+    font-weight: 200;
+    font-family: 'Poppins' , sans-serif;
+}
+.OpenSans20B{
+    color:#5D6186;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Open Sans' , sans-serif;
+}
+.poppins30B{
+    color:#00155A;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom:0px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.poppins22B{
+    color:#00155A;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom:0px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.poppins15R{
+    color:#5D6186;
+    font-size: 13px;
+    font-family: 'Poppins' , sans-serif;
+}
+.Bookedbtn{
+    color:#fff;
+    background-color: #2650D8;
+    height:50px;
+    width:245px !important;
+    border:1px solid #2650D8;
+    border-radius:15px;
+    
+
+}

@@ -1,0 +1,145 @@
+.dealcoindes{
+    display: flex;
+    font-size:0.8rem;
+}
+.cardrow{
+    display: flex;
+    justify-content:space-around;
+}
+.footcarcard{
+    font-size:0.8rem;
+    padding:10px;
+}
+.footcoin{
+display: flex;
+justify-content:space-between}
+.footcoin img{
+    width:20px;
+    height:20px
+}
+.footcoin p{
+    margin-left: 5px;
+    color:#FF9100
+}
+.footcoin small{
+    color:#999999;
+}
+.help1{
+    text-decoration: none;
+    color:#FF9100;
+    font-weight:bolder;
+}
+.moreinfo12{
+    display: flex;
+}
+.workcardhead{
+    margin:20px;
+ display: flex;
+ justify-content:space-between;
+}
+.workcardhead p{
+    color:#00155A;
+}
+.workcard{
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.workcard i{
+    font-size:25px;
+    color:#B92100;
+ 
+    background-color:#ffe4e1;
+    border-radius: 50%;
+    padding: 20px
+}
+.workcard p{
+ margin-right:30px
+}
+.toggleheader{
+    display:flex;
+    justify-content:space-between;
+    color:#00155A
+}
+.togglebtn{
+    text-decoration: none;
+    border:none;
+    background-color:none
+}
+.toggletetext p{
+    color:#5D6186
+}
+.history {
+    width: 100%;
+    margin-top:80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+    .bghead{
+        background-color:#2650D8;
+        display:flex;
+        justify-content:space-between;
+        width:1000px;
+        border-radius:30px 30px 0px 0px !important;
+        padding:20px;
+        color:#fff;
+    }
+    .bgheadpass{
+        display:flex;
+        justify-content:space-between;
+        color:#fff
+    }
+    .bgheadpass p{
+        margin-left: 670px;
+    }
+    .linkpass{
+        color:#fff;
+    }
+    .linkpass:hover{
+        color:#fff;
+    }
+    .bgchange{
+        background-color:#2650D8;
+        display:flex;
+        justify-content:space-between;
+        width:1000px;
+        border-radius:30px 30px 0px 0px !important;
+        padding:20px;
+        color:#fff;
+    }
+    .bgchange1{
+        background-color:#4EE59D;
+        display:flex;
+        justify-content:space-between;
+        width:1000px;
+        padding:20px;
+        color:#00155A;
+    }
+    .bgchange11{
+        background-color:#F4F8FF;
+        display:flex;
+        justify-content:space-between;
+        width:1000px;
+        padding:20px;
+        color:#999999;
+    }
+    .datasection{
+        width:400px !important;
+        background-color:red;
+    }
+  table {
+
+   
+    
+    height: 200px;
+  }
+    
+  th {
+    border-bottom: 1px solid black;
+  }
+    
+  td {
+    text-align: center;
+  }

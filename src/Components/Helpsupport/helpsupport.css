@@ -1,0 +1,61 @@
+.helpcard12{
+    display: flex;
+    justify-content: space-around;
+}
+.helpcard122{
+    display: flex;
+    justify-content: space-around;
+    margin-left:17px !important;
+}
+.helpcard121{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10px;
+}
+.helpcar_sub{
+    padding-left:55px !important
+}
+.helpcar_sub1{
+    padding-left:45px !important
+}
+.garageserviec{
+    border-bottom: 2px solid #999999;
+}
+.ticekcont{
+    background-color:#F8F9FA;
+}
+.closedhelp{
+    display: flex;
+    justify-content: center;
+    margin-left: 80px;
+}
+.ticekcont p{ 
+   color:#00155A
+  }
+.ticekcont small{
+    color:#999999;
+}
+.btnhelpsupport i{
+  font-size:30px;
+  background-color:#53BD8C;
+  border-radius: 50%;
+  color:#fff;
+  font-weight:bold;
+  padding:10px;
+}
+.closedhelp p{
+    color:#53BD8C;
+}
+.closehelpbtn p{
+    color:red;
+}
+.experienchelp{
+    display:flex;
+    justify-content:center;
+}
+.experienchelp small{
+    margin-left:50px
+}
+.experienchelp p{
+    color:#2650D8
+}

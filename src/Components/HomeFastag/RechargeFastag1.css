@@ -1,0 +1,206 @@
+.poppins18R{
+    color:#00155A;
+    font-size:18px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.poppins15SB{
+    color:#00155A;
+    font-size:15px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+.poppins12Open{
+    color:#4250F0;
+    font-size: 12px;
+    margin: 0px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+.poppins22Open{
+    color:#4250F0;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+.poppins20Open{
+    color:#4250F0;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+.poppins20B{
+    color:#4250F0;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+.poppins16Open{
+    color:#5D6186;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+.poppins15Open{
+    color:#5D6186;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+.poppins15R{
+    color:#00155A;
+    font-size:15px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.poppins12R{
+    color:#00155A;
+    font-size:12px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.poppins15M{
+    color:#ED7D2B;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.poppins18B{
+    color:#00155A;
+    font-size:18px;
+    font-weight:bold;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.poppins18SB{
+    color:#00155A;
+    font-size:18px;
+    font-weight: 600;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.poppins20R{
+    color:#5D6186;
+    font-size:20px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif; 
+}
+.poppins18SemiBlue{
+    color:#5D6186;
+    font-size:18px;
+    font-weight: 400;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.FirstBoxFastag{
+    box-shadow:  7px 0px 5px -3px rgba(47,47,47,0.5), 0px 8px 7px -3px rgba(47,47,47,0.5), -7px 0px 5px -3px rgba(47,47,47,0.5);
+    width:800px;
+    height:600px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.SecondBoxFastag{
+    box-shadow:  7px 0px 5px -3px rgba(47,47,47,0.5), 0px 8px 7px -3px rgba(47,47,47,0.5), -7px 0px 5px -3px rgba(47,47,47,0.5);
+    width:400px;
+    height:600px;
+    position: relative;
+    border-radius: 20px;
+}
+.Re_FirstBoxFastag{
+    box-shadow:  0 0 8px 0 #0000005c;
+    width:800px;
+    height:280px;
+    position: relative;
+    border-radius: 20px;
+}
+.RechargeList{
+    list-style-type: none;
+    display:flex;
+}
+.RechargeList >ul,li{
+    padding: 6px;
+}
+.rechargerupee{
+    width:200px;
+    height:72px;
+    border:1px solid #2650D8;
+    color:#2650D8;
+    border-radius: 10px;
+    font-family:'Open Sans', sans-serif;
+    font-weight:bold;
+    font-size: 22px;
+    background-color: #fff;
+}
+.rechargerupeegrey{
+    width:120px;
+    height:72px;
+    border:1px solid #999999;
+    color:#00155A;
+    border-radius: 10px;
+    font-family:'Open Sans', sans-serif;
+    font-weight:bold;
+    font-size: 22px;
+    background-color: #fff;
+}
+.CouponsBG{
+    border:1px dotted #ED7D2B;
+    border-radius: 5px;
+}
+.Re_CouponsBG{
+    border:1px dotted #53BD8C;
+    border-radius: 5px
+}
+.BottomGreenBG{
+    background-color: #53BD8C;
+    color: #fff;
+    text-align: center;
+    width:100%;
+    height: 84px;
+    bottom: 0;
+    margin: 0;
+    border-radius: 0px 0px 20px 20px;
+}
+.BottomBG{
+    background-color: #2650D8;
+    color: #fff;
+    /*  text-align: center; */
+    height: 84px;
+    width:100%;
+    bottom: 0;
+    margin:0;
+    border-radius: 0px 0px 25px 25px;
+}
+.SelectPayment{
+    width:212px;
+    height:42px;
+    background-color: #fff;
+    color:#00155A;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #fff;
+
+}
+.ExperienceBox{
+    width:800px;
+    height:280px;
+    border-radius: 20px;
+    background-color: #F4F8FF;
+    border:1px solid #D8D8D8;
+    text-align: center;
+}
+.InputNum{
+    width:330px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #2650D852;
+}
+
+.Re_InputNum{
+    width:729px;
+  box-sizing: border-box;
+  border: none;
+  padding: 0px;
+  margin-left: 10px;
+  border-bottom: 2px solid #2650D852;
+}

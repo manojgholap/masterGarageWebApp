@@ -1,0 +1,358 @@
+.infobooking {
+    display: flex;
+    justify-content: space-between;
+   
+    font-size: 0.8rem;
+}
+.fistCard {
+    margin-top: 25px;
+    height: 500px;
+    padding: 0px;
+    margin: 0px;
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow: scroll;
+}
+
+.fistCard::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+.bookingstatus {
+    display: flex;
+}
+.bookingstatus h5 {
+    color: #2650d8;
+    margin-left: "10px";
+}
+.bookingstatus i {
+    margin-top: 5px;
+    margin-right: 20px;
+    color: #2650d8;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.jobcarHeader {
+    background-color: #2650d8;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    font-size: 0.9rem;
+}
+.imgshow {
+    display: flex;
+    justify-content: space-between;
+}
+.jobcarContainer h5 {
+    color: #00155a;
+}
+.jobcarContainer {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 0.9rem;
+}
+.cardescripthead {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.maindescriptioncar {
+    display: flex;
+    justify-content: space-evenly;
+}
+.serives small {
+    color: #2650d8;
+}
+.serives h6 {
+    color: #00155a;
+}
+.serives p {
+    color: #00155a;
+    font-weight: bolder;
+}
+
+.fistCard span {
+    margin-left: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.jobcarpayhead {
+    text-align: left;
+    border-bottom: 2px solid #d8d8d8;
+    padding: 10px;
+}
+.serives {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 2px solid #d8d8d8;
+}
+.fancy-checkbox input[type="checkbox"] {
+    display: none;
+}
+
+.footjobcar {
+    background-color: #53bd8c;
+    font-weight: bolder;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.footjobcar:hover {
+    color: #fff !important;
+    font-weight: bolder;
+}
+.linkcolor {
+    color: white;
+}
+.fancy-checkbox span:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f058";
+    border-radius: 50%;
+    font-style: normal;
+    width: 1em;
+    height: 1em;
+    text-rendering: auto;
+    color: #53bd8c;
+    font-size: 15px;
+    margin-right: 0.9em;
+}
+
+.fancy-checkbox input[type="checkbox"]:checked ~ span:before {
+    content: "\f057";
+    color: #b92100;
+}
+input[name="wipro"] {
+    accent-color: #b92100;
+}
+input[name="fuel"] {
+    accent-color: #53bd8c;
+}
+.fancy-checkbox span {
+    font-size: 0.7rem !important;
+    font-weight: normal !important;
+    word-spacing: 0.3rem;
+    letter-spacing: 0.1rem;
+}
+.serviceicon i {
+    font-size: 25px;
+}
+.serviceicon .fa-check-circle {
+    color: #53bd8c;
+}
+.serviceicon .fa-times-circle {
+    color: #f45c3b;
+    margin-top: 10px;
+}
+.finalfootcolor h5 {
+    color: #00155a;
+    font-weight: bolder;
+}
+.finalfootcolor p {
+    color: #5d6186;
+}
+.comment1 {
+    font-size: 30px;
+    margin-right: 20px;
+    color: #fff !important;
+    width: 40px;
+    background-color: #53bd8c;
+    border-radius: 50%;
+    padding: 0px 5px 0px 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.comment1 i {
+    font-size: 25px;
+}
+.finalfoot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+}
+.borderfuel {
+}
+.cardescription img {
+    width: 250px;
+    margin-top: 60px;
+    border-right: 2px solid #d8d8d8;
+}
+.finalfoot img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.firststep {
+    padding-right: 20px;
+}
+.firstfootfinal {
+    display: flex;
+    justify-content: space-evenly;
+}
+.footcarlist {
+    display: flex;
+    justify-content: space-between;
+}
+.viewcars {
+    line-height: 7px;
+    font-size: 0.7rem;
+}
+.listcarimg1 {
+}
+.footicon {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 30px;
+}
+.listcarimg ul {
+    display: flex;
+}
+.listcarimg ul li {
+    margin-right: 20px;
+}
+.carlist1 li {
+    margin-bottom: 20px;
+}
+.carlist1 {
+    height: 600px !important;
+    overflow: scroll;
+}
+.carlist img {
+    width: 40px;
+}
+.carlist1 img {
+    width: 300px;
+}
+.fullpage {
+    width: 400px;
+    height: 640px;
+}
+.accoutscan {
+    display: flex;
+    justify-content: space-between;
+    font-size: bolder;
+}
+.qrscanheader {
+    display: flex;
+    margin-top: 30px;
+}
+.qrscanheader p {
+    font-weight: bolder;
+}
+.qrscanheader i {
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.Qrdetaiils {
+    background-color: #2650d8;
+    color: white;
+}
+.profilelogo {
+    display: flex;
+    justify-content: center;
+}
+.profilelogo img {
+    width: 100px;
+    border-radius: 50%;
+    border: 1px solid whitesmoke;
+}
+.qrprofiledes {
+    display: flex;
+    justify-content: center;
+    font-size: bolder;
+}
+.descriptionmaruti p {
+    margin-left: 70px;
+    color: #fff;
+}
+.backgroundAccount {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+.backgroundAccount img {
+    width: 157.75px;
+    padding: 20px;
+    border: 20px solid #fff;
+    border-radius: 20px;
+}
+.moreQrinfo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+.moreQrinfo p {
+    color: #fff;
+}
+/*progress*/
+.pagesize1_1{
+  
+    margin-top:-10px;
+    font-size: 10px !important;
+    height: 488px;
+    width:10px;
+}
+.pagesize1_1 li{
+  list-style: none;
+  margin-bottom: 66px !important;
+  margin-left:10px;
+
+}
+.pagesize_1 li{
+  list-style: none;
+  margin-bottom: 95px;
+  
+}
+.progress_bar {
+    display: flex;
+    height: 488px;
+    width:10px;
+   background-color:#D8D8D8;
+   margin-bottom: 50px;
+   border-radius: 40px;
+ }
+
+
+               
+ .progress_bar .prog_1 {
+   width: 10px !important;
+   height: 40%;
+   border-radius: 40px;
+   background-color: #2650D8;
+ }
+
+
+
+.garagdes {
+    display: flex;
+    justify-content: center;
+}
+.garagdes p {
+    color: #fff;
+}
+.garagdes img {
+    width: 30px;
+}
+.garageCard {
+    border-radius: 40px !important;
+}
+.bookingtrack{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:10px;
+}
+.bookingstatus{
+    text-decoration: none;
+}
+.bookingstatus h5{
+    color:black;
+}
+.bookingstatus small{
+    color:#d8d8d8
+}
+.bookingstatus h6{
+    margin-left:20px;
+    color:#2650d8
+}

@@ -1,0 +1,14 @@
+.paymentbox {
+    background-color: #fff;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+input.radiobtn {
+    float: right;
+    height: 30px;
+}
+
+.pricecolor p {
+    text-decoration: none;
+    color: #fff !important;
+}

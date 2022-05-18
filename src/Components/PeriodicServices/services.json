@@ -1,0 +1,58 @@
+[
+    {
+        "id":"1",
+        "name": "Basic Service",
+        "duration": "Every 5000 Kms or 3 months",
+        "points":"9 Points Service",
+        "image":"../../Images/BasicService.png"
+      },
+      {
+        "id":"2",
+        "name": "Standard Service",
+        "duration": "3 months",
+        "points":"9 points",
+        "image":"../../Images/BasicService.png"
+      },
+      {
+        "id":"3",
+        "name": "Oil Service",
+        "duration": "3 months",
+        "points":"9 points",
+        "image":"../../Images/BasicService.png"
+      },
+      {
+        "id":"4",
+        "name": "Fuil Service",
+        "duration": "3 months",
+        "points":"9 points",
+        "image":"../../Images/BasicService.png"
+      },
+      {
+        "id":"5",
+        "name": "Complete Service",
+        "duration": "3 months",
+        "points":"9 points",
+        "image":"../../Images/BasicService.png"
+      },
+      {
+        "id":"6",
+        "name": "Basic Service",
+        "duration": "3 months",
+        "points":"9 points",
+        "image":"../../Images/BasicService.png"
+      },
+      {
+        "id":"7",
+        "name": "Basic Service",
+        "duration": "3 months",
+        "points":"9 points",
+        "image":"../../Images/BasicService.png"
+      },
+      {
+        "id":"8",
+        "name": "Basic Service",
+        "duration": "3 months",
+        "points":"9 points",
+        "image":"../../Images/BasicService.png"
+      }
+]

@@ -1,0 +1,605 @@
+.containerprofile {
+    position: absolute;
+}
+.items13:focus {
+    color: #00155a !important;
+    border-bottom: 1px solid #00155a;
+}
+.allcontainer {
+    background-color: #f8f9fa;
+}
+.profilename {
+    display: flex;
+    justify-content: space-between;
+}
+.logoutprofile {
+    color: red;
+    text-decoration: none;
+}
+.experiencref {
+    display: flex;
+    justify-content: space-around;
+    color: #00155a;
+}
+.experiencref1 {
+    display: flex;
+    justify-content: space-around;
+}
+.referprofile {
+    width: 280px;
+}
+.referprofile1 p {
+    margin-top: 8px;
+}
+.referprofile1 {
+    color: #2650d8;
+    display: flex;
+}
+.referprofile1 img {
+    width: 156.03px;
+    height: 19.12px;
+}
+.profileseconfcont {
+    background-color: #4ee59d;
+    border-radius: 20px;
+}
+.btncontact {
+    border-radius: 20px;
+    height: 42px;
+    width: 120px;
+    color: #00155a;
+    background-color: #fff;
+    border: 1px solid whitesmoke;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.paymentcontmain h5 {
+    color: #00155a;
+}
+.rat_star {
+    font-size: 30px !important;
+}
+.paymentcontmain {
+    background-color: #f8f9fa;
+}
+.profileaddres {
+    background-color: #f8f9fa;
+    border-radius: 20px;
+}
+.editdelete {
+    float: right;
+    display: flex;
+}
+.editdelete p {
+    margin-left: 5px;
+}
+.homeaddress {
+    display: flex;
+
+    padding-top: 30px !important;
+}
+.homeaddress i {
+    margin-right: 8px;
+}
+.edit1 {
+    color: #2650d8;
+}
+.delete1 {
+    color: red;
+}
+.paymentscard {
+    display: flex;
+    justify-content: space-around;
+}
+.paymentscard img {
+    width: 40.52px;
+    height: 20px;
+    margin-right: 20px;
+}
+.deletepaymentcard {
+    margin-left: 20px;
+    color: red;
+}
+.paymentgap {
+    margin-bottom: 30px;
+}
+.paymentcont {
+    display: flex;
+    justify-content: space-around;
+}
+.subconatiner {
+    display: flex;
+    justify-content: space-between;
+}
+.qrborder {
+    margin-top: 30px;
+}
+.qrborder i {
+    font-size: 30px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+}
+.profileheader img {
+    width: 140px;
+    align-items: center;
+}
+.peofileinfos ul li {
+    margin-bottom: 20px;
+}
+.peofileinfos ul li i {
+    margin-right: 20px;
+}
+.containerprofile1 {
+    height: 245px;
+}
+.containerprofile img {
+    position: absolute;
+    top: 20px;
+    margin-left: 40px;
+    width: 240px;
+}
+.firstContainer {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+.descriptionc {
+    display: flex;
+    justify-content: space-between;
+}
+.totalcoin h4 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    opacity: 11;
+    z-index: 7;
+    color: #00155a;
+    font-weight: bolder;
+}
+.totalcoin small {
+    display: flex;
+    justify-content: center;
+}
+.tencoins {
+    display: flex;
+    justify-content: center;
+    color: #fff !important;
+    font-weight: bolder;
+}
+.someinfo {
+    margin-left: 130px;
+}
+.someinfo small {
+    margin-left: 60px;
+}
+.moreList1 {
+    font-weight: bolder;
+    color: #00155a;
+}
+
+.containlast {
+    display: flex;
+    justify-content: center;
+    color: #fff !important;
+    margin-top: -30px;
+}
+.coincolor p {
+    color: #fff !important;
+}
+.containlast1 {
+    display: flex;
+}
+.containlast1 i {
+    background-color: #fff;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    padding: 10px 10px 20px;
+    color: #ff9100;
+}
+.containlast1 p {
+    margin-left: 190px;
+    margin-top: 10px;
+    opacity: 11;
+    z-index: 7;
+    font-weight: bolder;
+    color: #fff;
+}
+.mgNavigation {
+    border-bottom: 1px solid #999999;
+    display: flex;
+    justify-content: space-between;
+}
+.helpsuppotbtn {
+    width: 100px;
+    border-radius: 10px;
+    background-color: #f45c3b;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+}
+.mgNavigation ul {
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+}
+.items13 {
+    text-decoration: none !important;
+    color: #999999;
+    font-weight: bolder;
+}
+.items13:hover {
+    color: #00155a;
+}
+.mgNavigation ul li {
+    margin-left: 50px;
+}
+
+.allvehicals {
+    display: flex;
+    justify-content: space-between;
+}
+.addmorevehical {
+    display: flex;
+    text-decoration: none;
+    color: #2650d8;
+}
+.addmorevehical i {
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.vehicalcard1 {
+    border-radius: 20px;
+    border: 1px solid whitesmoke;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.vehicalcard1:hover {
+    border-left: 20px solid #2650d8 !important;
+}
+.vehicalcard {
+    padding: 20px;
+}
+.vehicalheader {
+    display: flex;
+    justify-content: space-between;
+}
+.modelvehicalname {
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.2rem;
+}
+.modelvehicalname small {
+    color: #999999 !important;
+}
+.modelvehicalname p {
+    color: #00155a;
+    font-weight: bolder;
+}
+.vehiscan {
+    border: 1px solid black;
+    width: 30px;
+    height: 39px;
+    padding: 5px;
+    border-radius: 7px;
+    font-size: 20px;
+}
+.imgvehical {
+    width: 80px;
+}
+.editlink {
+    color: red;
+    font-weight: normal !important;
+}
+.rechareghead {
+    display: flex;
+    justify-content: space-between;
+}
+.rechareghead p {
+    margin-top: 5px;
+    color: #53bd8c;
+    font-weight: bold;
+}
+.rechareghead img {
+    width: 70px;
+    height: 40px;
+}
+.backrecharge {
+    background-color: #f4f8ff;
+}
+.recharegval {
+    display: flex;
+}
+.recharegval1 {
+    display: flex;
+}
+.mgpak1 img {
+    width: 67.39px;
+    height: 14.99px;
+}
+.mgpak2 img {
+    width: 14.5px;
+    height: 14.99px;
+}
+.mgpak3 img {
+    width: 16.62px;
+    height: 19.7px;
+}
+.mgpak4 img {
+    width: 15px;
+    height: 15px;
+}
+.recharegval1 small {
+    color: #999999;
+    margin-right: 5px;
+}
+.recharegval1 p {
+    color: #2650d8;
+}
+.recharegval12 p {
+    margin-top: 20px;
+    color: #53bd8c;
+}
+.recharegval p {
+    margin-top: 3px;
+    margin-left: 5px;
+    color: #2650d8;
+}
+.mainongoincont {
+    display: flex;
+    justify-content: space-between;
+}
+.bookdetails02 {
+    padding-left: 100px;
+}
+.bookdetails012 {
+    padding-left: 110px;
+}
+.bookdetails_02 {
+    margin-left: 100px !important;
+}
+
+.bookdetails022 {
+    margin-left: 130px;
+}
+.bookdetails0223 {
+    margin-left: 170px;
+}
+.bookdetails214{
+    padding-left:30px !important
+}
+.bookdetails213{
+    padding-left:20px;
+}
+.bookdetails0112 {
+    margin-left: 30px;
+}
+
+.bookdetails01 {
+    margin-left: 30px;
+}
+.bookdetails010 {
+    margin-left: 50px !important;
+}
+.ongoingheader1 {
+    display: flex;
+    justify-content: space-around;
+}
+.bookdetails_011 {
+    margin-left: 20px;
+}
+.ongoingheader11 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.bookdetails121 {
+    margin-right: 30px !important;
+}
+
+.ongoingheader113 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.bookdetails212 {
+    margin-left: 130px;
+}
+.bookdetails214 {
+    padding-left: 20px;
+}
+.bookdetails214 {
+    padding-right: 100px;
+}
+.bookdetails {
+    margin-left: 30px !important;
+}
+.bookdetails123 {
+    margin-left: 140px;
+}
+.ratehistorybook {
+    display: flex;
+}
+.ratehistorybook small {
+    margin-left: 10px;
+    color: #2650d8 !important;
+}
+.historybookcheck {
+    display: flex;
+}
+.historybookcheck i {
+    font-size: 20px;
+    color: #53bd8c;
+    margin-left: 10px;
+    margin-top: -10px;
+}
+.bookdetails small {
+    color: #999999;
+}
+.bookdetails p {
+    color: #00155a;
+}
+
+.bookdetails1 h5 {
+    color: #2650d8;
+    font-weight: bold;
+}
+.bookdetails1 {
+    color: #999999;
+}
+.secondcontonbook {
+    display: flex;
+    justify-content: space-around;
+}
+.ongoingbookicon1 {
+    color: #2650d8;
+}
+.ongoingbookicon i {
+    font-size: 20px;
+    margin-left: 190px;
+    background-color: #53bd8c;
+    font-size: 25px;
+    color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+}
+.onbookfoot {
+    display: flex;
+    justify-content: center;
+}
+.ongoingbookbtn {
+    width: 150px;
+    border: 1px solid #2650d8;
+    border-radius: 20px;
+    padding: 5px;
+    color: #2650d8;
+    margin-left: 140px;
+}
+.notificationprofile {
+    display: flex;
+    justify-content: space-between;
+}
+.notificationprofile i {
+    font-size: 20px;
+    margin-right: 40px;
+    color: #00155a;
+}
+.removeprofile h5 {
+    color: #00155a;
+}
+.referprofile p {
+    color: #999999;
+}
+.btnremove {
+    background-color: #f45c3b;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    width: 100px;
+    color: #fff;
+    font-weight: bold;
+}
+.mgworldgift {
+    display: flex;
+    justify-content: center;
+}
+.mgworldgift img {
+    width: 404.47px;
+    height: 264.38px;
+}
+.refersecondcont {
+    display: flex;
+    justify-content: space-around;
+}
+.refersecondcont small {
+    color: #d8d8d8;
+}
+.refercodemggift {
+    display: flex;
+    background-color: #53bd8c;
+    padding: 10px;
+    width: 338.8px;
+    border-radius: 20px;
+    height: 52px;
+}
+.refercodemggift p {
+    letter-spacing: 5px;
+    color: #00155a;
+    font-weight: bold;
+}
+.refercodemggift button {
+    border: none;
+    border-radius: 20px;
+    margin-left: 25px;
+    width: 88px;
+    height: 33px;
+}
+.thirdcontref {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.thirdcontref small {
+    color: #d8d8d8;
+}
+.listsocial {
+    display: flex;
+}
+.listsocial li {
+    font-size: 20px;
+    margin-right: 20px;
+    color: #999999;
+}
+.visitMg {
+    display: flex;
+}
+.footmgworld {
+    background-color: #4ee59d;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.footmgworld img {
+    width: 200px;
+    margin-top: 20px;
+}
+.visitMg i {
+    font-size: 30px;
+    color: #fff;
+    margin-left: 20px;
+}
+.mgworld {
+    margin-top: 70px;
+}
+.chatHead {
+    background-color: #eceff5;
+    display: flex;
+    justify-content: space-around;
+}
+.chatHead img {
+    width: 100px;
+}
+.chatinfo {
+    line-height: 0.5rem;
+    margin-right: 200px;
+}
+.chatinfo h5,
+p {
+    color: #00155a;
+}
+.chatHead1 {
+    padding-bottom: 10px;
+    border-bottom: 2px solid #999999;
+}
+.chatHead small {
+    color: #999999;
+}
+.chatfoot i {
+    font-size: 20px;
+    background-color: #4ee59d;
+    color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+    margin-left: 40px;
+}

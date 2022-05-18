@@ -1,0 +1,13 @@
+{
+    "cars": {
+        "Nissan": [
+            {"Registeration":"MH 123","model":"Sentra", "doors":4,"img1":"../../Images/ImagesAll/drawable-xxxhdpi/PS1.png"},
+            {"Registeration":"MH 321","model":"Maxima", "doors":4},
+            {"Registeration":"MH 456","model":"Skyline", "doors":2}
+        ],
+        "Ford": [
+            {"Registeration":"MH 678","model":"Taurus", "doors":4},
+            {"Registeration":"MH 765","model":"Escort", "doors":4}
+        ]
+    }
+}

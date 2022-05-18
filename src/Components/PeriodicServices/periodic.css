@@ -1,0 +1,594 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+.periodicadd {
+    text-decoration: none;
+}
+.periodicadd1 {
+    text-decoration: none;
+    margin-left: 10px;
+    color: black;
+}
+.infocar {
+    display: flex;
+}
+.expand {
+}
+.sideservice_click:visited{
+    color:'#2650D8';
+    font-size:'15px';
+    font-weight:'bold';
+    margin-bottom:'8px';
+}
+.class_expand {
+    display: flex;
+    justify-content: space-between;
+}
+.midbar {
+    height: 589px;
+    padding: 0px;
+    margin: 0px;
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow: scroll;
+}
+
+.midbar::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+
+.cartcol {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #d8d8d8;
+}
+.titlemnt {
+    line-height: 0.4rem;
+    font-size: 0.8rem;
+}
+.titlemnt h6 {
+    color: #00155a;
+}
+.amountcart {
+    display: flex;
+    justify-content: space-evenly;
+}
+.amountcart small {
+    text-decoration: line-through;
+    color: #999999;
+}
+.btnquntity {
+    margin-top: 15px;
+}
+.btnquntity button {
+    border: none;
+    background-color: #f8f9fa;
+    width: 20px;
+}
+.cross {
+    margin-left: 20px;
+    color: #f45c3b;
+    font-size: 18px;
+    margin-top: 15px;
+}
+.poppins12light {
+    color: #00155a;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+.poppins12R {
+    color: #5d6186;
+    font-size: 12px;
+    margin-bottom: 8px;
+    font-family: "Poppins", sans-serif;
+}
+.intstuction {
+    display: flex;
+    justify-content: space-between;
+}
+
+.intstuction small {
+    color: #5d6186 !important;
+}
+.intstuction img {
+    width: 12px;
+}
+
+.intstuction1 {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #eaeaea;
+    padding-bottom: 15px;
+}
+
+.intstuction1 small {
+    color: #5d6186 !important;
+}
+.intstuction1 img {
+    width: 12px;
+}
+.sub_coupan {
+    display: flex;
+    color: #b92100;
+    margin-top: 10px;
+}
+.sub_coupan img {
+    margin-right: 10px;
+    height: 15px;
+}
+.poppins18B {
+    color: #00155a;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+.poppins18B22 {
+    color: #00155a;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 8px;
+    line-height: 0.6rem;
+    margin-top: 15px;
+}
+.poppins18 {
+    color: #00155a;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.poppins22M {
+    color: #00155a;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.poppins20B {
+    color: #00155a !important;
+    font-size: 20px;
+    font-weight: bold;
+}
+.poppins15light {
+    font-family:'Poppins Light';
+    color: #5d6186 !important;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 0px;
+    margin-right: 3px;
+}
+.poppins15light img {
+    margin-right: 10px;
+}
+.poppins15L {
+    color: #5d6186;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    margin-bottom: 0px;
+}
+.OpenSans22 {
+    color: #00155a;
+    font-size: 22px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+}
+
+ul.sidebar {
+    display: block;
+    padding: 0px;
+    text-decoration: none;
+    list-style-type: none;
+}
+.submidtext {
+    color: rgb(38, 80, 216);
+    font-size: 22px;
+    font-family: "Poppins";
+    font-weight: 800;
+}
+.submidtext2 {
+    font-size: 15px;
+    border: none;
+    font-weight: 300;
+    border-left-style: solid;
+    border-left-color: #4ee59d;
+    padding-left: 10px;
+    color: "#5D6186" !important;
+}
+.searchbox {
+    position: relative;
+}
+button.recomdedbtn.btn.btn-parimay {
+    float: left;
+    color: #fff;
+    background-color: blue;
+    width: 100px;
+    margin-left: 20px;
+    height: 15px;
+    font-size: 10px;
+    padding: 0px;
+    border-radius: 2px;
+}
+i.fas.fa-search {
+    position: absolute;
+    z-index: 99;
+    top: 17px !important;
+    left: 25px;
+    color: #757575 !important;
+}
+.Searchgarage {
+    width: 100%;
+    height: 50px;
+    position: relative;
+    font-size: 18px;
+    padding: 10px 10px 10px 50px;
+    background-color: #f8f9fa;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+}
+  .regCarval{
+      margin:10px 20px 0px !important;
+    height:50px;
+    width:60px;
+    margin-bottom:20px;
+  }
+
+.submidrow {
+    background-color: #f8f9fa;
+    height: 150px;
+    width: 100%;
+    border: 1px solid #eaeaea;
+    border-radius: 7px;
+    padding-left: 10px;
+}
+.resubmidrow {
+    background-color: #f8f9fa;
+    height: 170px;
+    width: 100%;
+    border: 1px solid #eaeaea;
+    border-radius: 7px;
+    padding-left: 10px;
+}
+
+.btn1.btn.btn-secondary {
+    background-color: #fff;
+    color: blue;
+    border: none;
+    text-align: left;
+    width: 200px;
+    height: 95px;
+    font-size: 16px;
+    border: 1px solid #eaeaea;
+    border-left: 3px solid #2650d8;
+}
+.SubmidBgBox {
+    width: 100%;
+
+    margin: 0px 0px;
+    border-radius: 10px;
+}
+.SubmidBgBox1 {
+    border-radius: 10px;
+    width: 603px;
+    height: 157px;
+    background-color: #f8f9fa;
+}
+.saveinfo img {
+    margin-bottom: 40px !important;
+}
+.reg_car {
+    margin-left: 5px;
+    margin-top:18px;
+    line-height: 0.9rem;
+}
+.add_Car {
+    margin-top: 10px;
+}
+.bgcall {
+    background-color: #fff !important;
+    width: 100% !important;
+}
+.bgcalling {
+    font-size: 0.7rem !important;
+}
+.Re_SubmidBgBox {
+    width: 100%;
+    height: 165px;
+    border: 1px solid #eaeaea;
+    margin: 0px 0px;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+}
+.Showmore > li {
+    list-style-type: none;
+    padding: 5px 0px;
+}
+.BoxWithBox {
+    width: 100%;
+    height: 520px;
+    border: 1px solid #eaeaea;
+    margin: 0px 0px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.addcar {
+    padding: 0px;
+    text-align: center;
+    margin-top: -15px;
+    color: #2650d8;
+    border: 1px solid #2650d8;
+    background-color: #fff;
+    width: 113px;
+    height: 42px;
+    font-size: 15px;
+    float: right;
+    position: relative;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    border-radius: 5px;
+    margin-top: -26px;
+}
+.addcar:focus {
+    background-color: #2650d8;
+    color: #fff;
+}
+.sublastrow {
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0;
+    position: relative;
+}
+.addvechicle {
+    width: 120px;
+    height: 50px;
+    background-color: #2650d8;
+    color: #fff;
+    border: 1px solid #2650d8;
+    border-radius: 5px;
+}
+.addvechicleInput {
+    width: 247px !important;
+    height: 50px;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #eaeaea;
+    border: none;
+    outline: none;
+}
+input:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    outline: none !important;
+}
+.changeInput {
+    width: 230px !important;
+    height: 50px;
+    border-radius: 5px;
+    padding: 20px;
+    margin-right: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #eaeaea;
+    color: #2650d8;
+    font-size: 18px;
+    font-weight: bold;
+}
+.addbg1 {
+    border: 1px solid #eaeaea;
+    border-radius: 7px;
+    padding: 10px;
+    box-shadow: 0 0 10px 0 #00000040;
+    margin: 20px;
+}
+.instruct_price {
+    line-height: 0.2rem !important;
+}
+.instruct_price img {
+    width: 15px;
+    margin-bottom: 3px;
+}
+.sub_coupan img {
+    width: 15px;
+}
+.small_sub small {
+    color: #5d6186;
+}
+.instruct_price p {
+    color: #2650d8 !important;
+}
+.instruct_price small {
+    color: #f45c3b !important;
+}
+.bottomright {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+.boxlast {
+    border-radius: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0 0 10px 0 #00000040;
+    width: 470px !important;
+    height: 589px;
+}
+/* .boxlast {
+    width: 488px;
+    height: 590px !important;
+    top: 100;
+} */
+.footerbg {
+    background-color: azure;
+    padding: 30px;
+    width: 100%;
+}
+.noservice {
+    border-radius: 20px;
+    background-color: #f4f8ff;
+    text-align: center;
+    width: 380px !important;
+    height: 150px;
+}
+.btn.btn-light {
+    border: 1px solid #eaeaea;
+    background: #f4f8ff;
+    display: block;
+    margin-top: 10px;
+    text-align: left;
+    padding: 10px;
+    height: 50px;
+    width: 200px;
+    font-size: 15px;
+    color: #00155a !important;
+}
+.scrollbox {
+    border-radius: 5px;
+    height: 480px;
+    width: 100%;
+}
+.scrollbox::-webkit-scrollbar {
+    display: none;
+}
+.scrollbox {
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll;
+}
+.pagesize {
+    width: 400px;
+    font-size: 12px;
+    display: flex;
+}
+div.vertical-line {
+    width: 1px; /* Line width */
+    background-color: black; /* Line color */
+    height: 1%; /* Override in-line if you want specific height. */
+    float: left; /* Causes the line to float to left of content. 
+      You can instead use position:absolute or display:inline-block
+      if this fits better with your design */
+}
+.pagesize1 {
+    display: flex;
+    margin-top: -10px;
+    font-size: 10px !important;
+}
+.pagesize1 li {
+    list-style: none;
+    margin-right: 79px !important;
+}
+.pagesize li {
+    list-style: none;
+    margin-right: 48px !important;
+    margin-top: -10px;
+}
+/* PROGRESS BAR */
+.progressbar {
+    width: 488px;
+    height: 10px;
+    background-color: #d8d8d8;
+    margin-bottom: 50px;
+    border-radius: 40px;
+}
+.cart_top {
+    border-radius: 0px 0px 15px 15px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.cart_top h6{
+    padding-top: 10px;
+    padding-left: 20px;
+    color:#00155a;
+    font-weight: bolder;
+}
+.cart_top p{
+    padding-top: 10px;
+    padding-right: 20px;
+    color:#00155a;
+}
+.progressbar .prog {
+    width: 21.3% !important;
+    height: 100%;
+    border-radius: 40px;
+    background-color: #2650d8;
+}
+.progressbar .prog12 {
+    width: 40.3% !important;
+    height: 100%;
+    border-radius: 40px;
+    background-color: #2650d8;
+}
+.cartfoot {
+    background-color: #2650d8;
+    margin-bottom: 120px !important;
+    border-radius: 0px 0px 10px 10px;
+}
+.poppins18W {
+    color: #fff !important;
+}
+.poppins10W {
+    color: #fff !important;
+}
+.submitpayment {
+    color: #fff;
+    text-decoration: none;
+}
+.submitpayment:hover {
+    color: #fff;
+}
+
+.vechiclesList img {
+    height: "45px";
+    width: "45px";
+    margin-bottom: "20px";
+}
+.vechiclesList h6 {
+    color: "grey";
+    font-size: "12px";
+}
+.car_info img {
+    height: "99px";
+    float: "right";
+    width: "140px";
+}
+.car_info h6 {
+    color: "red";
+    font-size: "12px";
+}
+/*RESPONSIVENESS*/
+@media all and (min-width: 300px) and (max-width: 1024px) {
+    .add_vehical {
+        position: absolute;
+        top: 10px;
+    }
+    .top-0-cal {
+        display: none;
+    }
+    .side_hide {
+        display: none;
+    }
+    .bottomright i {
+        display: none;
+    }
+    .periodic_top {
+        display: none;
+    }
+    .periodic_hide {
+        display: none;
+    }
+    .periodic_cont {
+        position: absolute;
+        top: 20px;
+    }
+    .poppins22M {
+        display: flex;
+        text-align: center;
+    }
+    .poppins22M h4 {
+        color: #00155a !important;
+    }
+}

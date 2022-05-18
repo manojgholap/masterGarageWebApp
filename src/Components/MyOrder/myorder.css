@@ -1,0 +1,73 @@
+.ongoing h4{
+    display:flex;
+    justify-content:center;
+    font-weight:bolder;
+    color:#00155A;
+}
+
+.historybook_check {
+    display: flex;
+}
+.historybook_check i {
+    font-size: 20px;
+    color: #53bd8c;
+    margin-left: 10px;
+    margin-top: -10px;
+}
+.ongoingheader12{
+    display:flex;
+    justify-content:space-evenly;
+}
+.second_ogoing_his{
+    display:flex;
+    justify-content:space-around;
+}
+.book_details{
+    margin-left:140px;
+}
+.bookdetails21{
+    margin-right: 130px;
+}
+.bookdetails210{
+    padding-right:150px;
+}
+.bookdetails_001{
+    padding-left:150px !important;
+}
+.book_details_11{
+    padding-right:60px
+}
+.bookdetails_02{
+    padding-left:0px
+}
+.bookdetails_011{
+    margin-left: 30px;
+}
+.containerOrder{
+    display:flex;
+    justify-content:center;
+    padding:30px
+}
+.ordertbtn{
+    display:flex;
+    justify-content:center;
+}
+.btnongoing{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 20px;
+    background-color: #53BD8C;
+    width: 120px;
+    height: 40px;
+    border: none;
+    color: #fff;
+
+}
+.secondcontonbook{
+    display: flex;
+    justify-content:space-around;   
+}
+.ratehistory_book small{
+    padding-right: 20px !important;
+    color:#2650D8;
+    font-weight: bold;
+}
