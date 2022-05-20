@@ -57,7 +57,7 @@ function PeriodicServiceAdded(props) {
                         </Row>
                         <hr size="3" color="black" />
 
-                        {props.isServiceSelect?<Garages></Garages>:<><Row>
+                        {props.isServiceSelect?<Garages isServiceSelect={props.isServiceSelect} isGarageSelect={props.isGarageSelect} setGarageSelected={props.setGarageSelected}></Garages>:<><Row>
                             <div  style={{ textAlign: 'center' }}>
                                     <img src={Estimate}  alt="error"></img>
                                </div>

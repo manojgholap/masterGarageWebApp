@@ -11,11 +11,10 @@ import coupan from '../../Images/drawable-xxxhdpi/coupan.png';
 import cartisan from '../../Images/ImagesAll/drawable-xxxhdpi/Cartisan.png';
 import bookmark from '../../Images/drawable-xxxhdpi/drawable-xxxhdpi/bookmark.png';
 
-const Garages = (props) => {
+const AllGarages = (props) => {
     const [garages, getGarages] = useState([]);
     const [searchgarage, setGarages] = useState(false);
     const [isGarageSelected,setGarageSelected]=useState(false)
-    console.log(props.isServiceSelect);
     function getAllGarages() {
         axios.post(process.env.REACT_APP_Api_Url + "garage/getGarageByPinCode",
             { pincode: "410502" })
@@ -89,10 +88,9 @@ const Garages = (props) => {
                         </>
                     )
                 })}
-            <Button>See All Estimates</Button>
         </div>
         </>
     );
 }
 
-export default Garages
+export default AllGarages

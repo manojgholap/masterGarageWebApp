@@ -82,6 +82,9 @@ const TopNavbar = () => {
                   <Link to="/search" className="icons1"><i class="fas fa-search-plus"></i></Link>
                 </li>
                 <li>
+                <Link to="" className="icons1"><i class="fas fa-shopping-cart"></i></Link>
+                </li>
+                <li>
                   <Link to="/notification" className="icons1"><i class="fas fa-bell"></i></Link>
                 </li>
 

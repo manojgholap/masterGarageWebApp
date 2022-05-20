@@ -45,13 +45,8 @@ function MidBar(props) {
 
     const usedispatch = useDispatch()
 
-    const handleClick = (category, packageName, item,fee) => {
-        props.setServiceSelect({
-            category:category,
-            packageName:packageName, 
-            item: item,
-            fee:fee
-        })
+    const handleClick = (packageName) => {
+        props.setServiceSelect(packageName)
         setService(true)
     }
     const carSelect=()=>{
@@ -87,30 +82,26 @@ function MidBar(props) {
                                         <div className='SubmidBgBox mb-3'>
                                             <Row>
                                                 {Object.keys(service.category[name]).map((packageName) => {
+                                                    
                                                     return (
                                                         <>
                                                             <Col sm={6} key='key'>
                                                                 <div className="SubmidBgBox1">
                                                                     <div className="p-3">
-                                                                        <p className='poppins18'>{packageName}</p>
+                                                                        <p className='poppins18'>{service.category[name][packageName].title}</p>
                                                                         {
-                                                                            Object.keys(service.category[name][packageName]).map((includes) => {
+                                                                            service.category[name][packageName].package?.map((includes) => {
                                                                                 return (<><p className='poppins15light py-2'><img src={systemUpdate} style={{ width: '12px' }} alt="error"></img>
-                                                                                    {service.category[name][packageName][includes][0]}</p>
+                                                                                    {includes}</p>
                                                                                 </>
                                                                                 )
                                                                             })}
-                                                                        {/* <p className='poppins15light'><img src={item.check} style={{ width: '12px' }} alt="error"></img> {item.points}</p> */}
                                                                         <Link className="bgcalling" onClick={() => setShowMore(isShowMore ? false : true)}>{isShowMore ? 'hide' : 'show more'}</Link>
                                                                     </div>
                                                                 </div>
                                                                 {isShowMore && <div>
-                                                                    {
-                                                                        Object.keys(service.category[name][packageName]).map((includes) => {
-                                                                            return (<>
-
                                                                                 {
-                                                                                    service.category[name][packageName][includes].map((value) => {
+                                                                                    service.category[name][packageName].includes?.map((value) => {
                                                                                         return (<><p>
                                                                                             <ul className='Showmore'>
                                                                                                 <li><p className='poppins15L'><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" style={{ marginRight: '10px' }} viewBox="0 0 15 15">
@@ -121,20 +112,17 @@ function MidBar(props) {
                                                                                         </p></>
                                                                                         )
                                                                                     })}
-                                                                            </>
-                                                                            )
-                                                                        })}
                                                                 </div>}
                                                             </Col>
                                                     
                                                             <Col sm={6}>
                                                                 <Row>
-                                                                <Col sm={5} style={{position:'relative',top:"90px"}}>
-                                                                        <p className='OpenSans22'>&#8377;{fee}</p>
+                                                                <Col sm={6} style={{position:'relative',top:"90px"}}>
+                                                                        <p>starting @{service.category[name][packageName].price}</p>
                                                             </Col>
-                                                                <Col sm={7}><div className="add_Car" style={{ width: '120px', height: '165px', marginLeft: '-20px' }}>
+                                                                <Col sm={6}><div className="add_Car" style={{ width: '120px', height: '165px', marginLeft: '-20px' }}>
                                                                     <img src={BasicService} style={{ width: '127px', height: '120px' }} alt="error"></img>
-                                                                    {<button className='addcar' onClick={() => props.isCarSelect? handleClick(name, packageName, service.category[name][packageName],fee):carSelect()}>{props.isCarSelect ? isService?"Added":"Add" : "Add Car"}</button>}
+                                                                    {<button className='addcar' onClick={() => props.isCarSelect? handleClick(service.category[name][packageName]):carSelect()}>{props.isCarSelect ? isService?"Added":"Add" : "Add Car"}</button>}
                                                                 </div>
                                                                 </Col>
                                                                 </Row>

@@ -41,7 +41,7 @@ function AddVechicle(props) {
             })
     }
     function onCarSelect(cars) {
-        props.setCarSelect(true)
+        props.setCarSelect(cars)
         setSelectedCar(cars)
     }
 
@@ -53,7 +53,7 @@ function AddVechicle(props) {
         }
     }, [])
     return (<>
-        {selectCar?<PeriodicServiceAdded car={selectCar} isServiceSelect={props.isServiceSelect}></PeriodicServiceAdded>:<div className="add_vehical">
+        {selectCar?<PeriodicServiceAdded car={selectCar} setGarageSelected={props.setGarageSelected} isServiceSelect={props.isServiceSelect}></PeriodicServiceAdded>:<div className="add_vehical">
             <div className="progressbar">
                 <div className="prog">
                 </div>
