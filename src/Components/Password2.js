@@ -14,8 +14,8 @@ const Password2 = (props) => {
             showMessage("info", "password doesn't match");
             return
         }
-        if (password.length < 6) {
-            showMessage("info", "length of password should be six characters");
+        if (password.length < 8) {
+            showMessage("info", "length of password should be eight characters");
             return
         }
         axios.post(process.env.REACT_APP_Api_Url + "user/setPassword",

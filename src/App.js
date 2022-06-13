@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import Home from './Components/Home'
 import HomeMaintain from './Components/Home_Maintain/HomeMaintain';
 import HomeMain1 from './Components/Home_Maintain/HomeMain1';
+import CarCare from './Components/CarCare/CarCare'
 import Periodic from './Components/PeriodicServices/PeriodicService'
 import PeriodicADDvechicle from './Components/PeriodicServices/PeriodicADDvechicle';
 import PeriodicServiceAdded from './Components/PeriodicServices/PeriodicServicesAdded';
@@ -212,6 +213,7 @@ function App() {
             <Route path='/' exact component={Home} />
             <Route path='/home' component={Home} />
             <Route path='/Washing' component={Washing} />
+            <Route path='/CarCare' component={CarCare} />
             <Route path='/WashingService' component={WashingService} />
             <Route path='/BBGVechicle' component={BBGVechicle} />
             {/* <Route path='/' exact component={Login_Mob}/> */}

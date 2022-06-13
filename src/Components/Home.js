@@ -127,7 +127,7 @@ const Home = () => {
                                     <p style={{ marginLeft: "5px" }}>The Carspa & more</p>
                                 </div>
                             </Link>
-                            <Link to="/services" style={{ textDecoration: 'none' }}>
+                            <Link to="/CarCare" style={{ textDecoration: 'none' }}>
                                 <div className='item' style={{ backgroundColor: "aliceblue" }}>
                                     <img src={carCare} alt="error" />
                                     <p style={{ marginLeft: "5px" }}><b>Car care & accessory</b></p>

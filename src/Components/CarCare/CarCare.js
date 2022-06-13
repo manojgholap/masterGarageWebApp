@@ -50,7 +50,7 @@ import axios from "axios";
 import BBGVechicle from '../BookByGarage/BBGVechicleAdded';
 
 
-function Washing(props) {
+function CarCare(props) {
     const [showButton, setShowButton] = useState(true);
     const [showMessage, setShowMessage] = useState(false);
     const [searchgarage, setGarages] = useState(false);
@@ -575,4 +575,4 @@ function Washing(props) {
     )
 }
 
-export default Washing;
+export default CarCare;
