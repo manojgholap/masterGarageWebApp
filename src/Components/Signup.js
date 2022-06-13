@@ -50,7 +50,7 @@ const Signup = ({ show }) => {
           setOtp(true)
         }
         else {
-          showMessage('error',)
+          showMessage('error',res.data.err)
         }
       })
     }

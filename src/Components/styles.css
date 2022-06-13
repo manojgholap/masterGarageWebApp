@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
 * {
-    font-family: "Poppins";
+   font-family:Arial, Helvetica, sans-serif
 }
 .left_items h1 {
     color: #f4f8ff !important;
@@ -94,13 +94,13 @@
 }
 .cardItem p {
     color: #00155a;
-    justify-content: center;
+    /* justify-content: center; */
     display: flex;
     margin-top: 15px;
 }
 .item {
     width:300px;
-    height:200px;
+    height:250px;
     border-radius: 20px;
     border: 1px solid #d8d8d8;
     justify-content: center;
@@ -109,10 +109,7 @@
 }
 .item img {
     width:300px;
-    height:200px;  
-    border-radius: 20px;
-    border: 1px solid #d8d8d8;
-    /* margin-left: 15px; */
+    height:130px;  
 }
 .item i {
     display: flex;
@@ -140,6 +137,9 @@
     justify-content: center;
     margin-top: 40px;
     font-size: 30px;
+}
+.valueitem p{
+    justify-content: center;
 }
 .icon {
     padding-top: 60px;

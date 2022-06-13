@@ -9,14 +9,12 @@ import BookGarage from '../GarageBook/BookGarage';
 function Periodic(props) {
     const [isCarSelect, setCarSelect] = useState(false)
     const [isServiceSelect, setServiceSelect] = useState('')
-    const [isGarageSelected, setGarageSelected] = useState('')
+    const [isGarageSelected, setGarageSelected] = useState(props.isGarageSelected||'');
     console.log(props);
     return <>
-
         <div className='container-fluid px-5'>
             {isGarageSelected ?
                 <>
-
                     <BookGarage isCarSelect={isCarSelect}
                         isServiceSelect={isServiceSelect}
                         isGarageSelected={isGarageSelected}

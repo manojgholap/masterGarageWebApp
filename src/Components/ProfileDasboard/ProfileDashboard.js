@@ -139,14 +139,14 @@ const ProfileDashboard = (user) => {
                                         <Row className="p-4">
                                             <Col lg={3}>
                                                 <div className="profileheader">
-                                                    {profilePhoto?<img src={`${process.env.REACT_APP_Api_Url+user.user.profilePhoto}`} width="25%" height="25%" alt={profileavt}  className="mb-4" />:
+                                                    {profilePhoto?<img src={user.user.imageUri?user.user.imageUri:profileavt} width="25%" height="25%" alt={profileavt}  className="mb-4" />:
                                                     <img src={profileavt}  alt={profileavt}  className="mb-4" />}
                                                     <Button variant="primary" color="primary" onClick={setProfile}><i class="far fa-edit"></i>Update Profile</Button>
                                                 </div>
                                             </Col>
                                             <Col lg={8}>
                                                 <div className="peofileinfos">
-                                                    <div className="profilename"><h3>{user.user.firstName ? user.user.firstName +" "+user.user.lastName : "User"}</h3>
+                                                    <div className="profilename"><h3>{user.user.first_name ? user.user.first_name +" "+user.user.last_name : "User"}</h3>
                                                         <a class="btn btn-danger" onClick={handleClick} >
                                                             <i class="fa fa-sign-out"></i>&nbsp;logout
                                                         </a>
@@ -154,7 +154,7 @@ const ProfileDashboard = (user) => {
                                                     <div className="subconatiner">
                                                         <ul>
                                                             <li><i class="far fa-envelope"></i>{user.user.email ? user.user.email : "xxxxx@gmail.com"}</li>
-                                                            <li><i class="fas fa-phone"></i>{user.user.mobileNumber ? user.user.mobileNumber : "xxxxxxxxxx"}</li>
+                                                            <li><i class="fas fa-phone"></i>{user.user.phone_no ? user.user.phone_no : "xxxxxxxxxx"}</li>
                                                             {/* <li><i class="fas fa-phone"></i>+91 9082224157</li> */}
                                                             <li><i class="fas fa-map-marker-alt"></i>{user.user.homeAddress ? user.user.homeAddress : "update address"}</li>
                                                         </ul>
@@ -305,8 +305,7 @@ const ProfileDashboard = (user) => {
                                                         <i class="fas fa-home"></i>
                                                         <div>
                                                             <p>Home</p>
-                                                            <small>5, Vasant Kunj, Shanti Nagar, Near Andheri Metro Station,
-                                                                Andheri East, Mumbai- 123 456, Maharashtra, India</small>
+                                                            <small>{user.user.homeAddress||''}</small>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -323,8 +322,7 @@ const ProfileDashboard = (user) => {
                                                         <i class="fas fa-briefcase"></i>
                                                         <div>
                                                             <p>Office</p>
-                                                            <small>5, Vasant Kunj, Shanti Nagar, Near Andheri Metro Station,
-                                                                Andheri East, Mumbai- 123 456, Maharashtra, India</small>
+                                                            <small>{user.user.officeAddress||''}</small>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -340,32 +338,14 @@ const ProfileDashboard = (user) => {
                                                     <div className="homeaddress">
                                                         <i class="fas fa-map-marker-alt"></i>
                                                         <div>
-                                                            <p>Aditya</p>
-                                                            <small>5, Vasant Kunj, Shanti Nagar, Near Andheri Metro Station,
-                                                                Andheri East, Mumbai- 123 456, Maharashtra, India</small>
+                                                            <p>Other</p>
+                                                            <small>{user.user.otherAddress||''}</small>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </Col>
-                                        <Col lg={6} className="mb-4">
-                                            <div>
-                                                <div className="profileaddres p-3">
-                                                    <div className="editdelete">
-                                                        <p><Link className="edit1">Edit</Link></p>
-                                                        <p><Link className="delete1">Delete</Link></p>
-                                                    </div>
-                                                    <div className="homeaddress">
-                                                        <i class="fas fa-map-marker-alt"></i>
-                                                        <div>
-                                                            <p>Parents</p>
-                                                            <small>5, Vasant Kunj, Shanti Nagar, Near Andheri Metro Station,
-                                                                Andheri East, Mumbai- 123 456, Maharashtra, India</small>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </Col>
+                                        
                                         <Link><i class="fas fa-plus"></i> Add more Address</Link>
                                     </Row>
                                 </div>

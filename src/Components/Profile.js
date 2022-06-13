@@ -25,14 +25,14 @@ const Login = ({user}) => {
             <div className="login">
                <div className="">
                   <div className="hello">
-                     <h5>Hello {user.name?user.name:"User"},</h5>
+                     <h5>Hello {user.first_name?user.first_name:"User"},</h5>
                      <p> <i class="far fa-times"></i></p>
                   </div>
                   <div className="headerProfile">
-                     <div><img src={`${process.env.REACT_APP_Api_Url+user.profilePhoto}`} width="10%" height="20%" alt={profileavt} /></div>
+                     <div><img src={user.imageUri?user.imageUri:profileavt} width="70%" height="80%" alt={profileavt} /></div>
                      <div className="logindetail1">
-                        <h3>{user.name?user.name:""}</h3>
-                        <p>{user.mobileNumber?user.mobileNumber:"xxxxxxxxxx"}</p>
+                        <h3>{user.first_name?user.first_name +" "+user.last_name:""}</h3>
+                        <p>{user.phone_no?user.phone_no:"xxxxxxxxxx"}</p>
                         <p>{user.email?user.email:"xxxxx@gmail.com"}</p>
                      </div>
                   </div>
@@ -40,11 +40,11 @@ const Login = ({user}) => {
                </div>
                {/* <CardBody > */}
                   <ul className="supportprofile">
-                        <li  onClick={setProfile(true)}>
+                        <li  onClick={()=>setProfile(true)} style={{cursor:"pointer"}} >
                            <img src={profile} alt="error" />
                             <p >Profile</p>
                         </li>
-                        <li  onClick={setMyGarage(true)} >
+                        <li  onClick={()=>setMyGarage(true)} style={{cursor:"pointer"}} >
                            <img src={mygarage} alt="error" />
                            <p>My Garage</p>
                         </li>

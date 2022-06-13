@@ -26,11 +26,6 @@ function BasicShowmore(){
     <div className=''>
                    <Row>
                 <Col sm={6}><p className='poppins15blue px-3'>What's Included</p></Col>
-                <Col sm={6} ><svg id="Icon_ionic-ios-close-circle-outline" className='mx-3' data-name="Icon ionic-ios-close-circle-outline" xmlns="http://www.w3.org/2000/svg" style={{float:'right'}} width="20" height="20" viewBox="0 0 20 20">
-  <path id="Path_27130" data-name="Path 27130" d="M18.938,17.98l-2.229-2.229,2.229-2.229a.676.676,0,1,0-.956-.956l-2.229,2.229-2.229-2.229a.676.676,0,0,0-.956.956L14.8,15.751,12.568,17.98a.654.654,0,0,0,0,.956.671.671,0,0,0,.956,0l2.229-2.229,2.229,2.229a.679.679,0,0,0,.956,0A.671.671,0,0,0,18.938,17.98Z" transform="translate(-5.754 -5.752)" fill="#f45c3b"/>
-  <path id="Path_27131" data-name="Path 27131" d="M13.375,4.721a8.65,8.65,0,1,1-6.12,2.534,8.6,8.6,0,0,1,6.12-2.534m0-1.346a10,10,0,1,0,10,10,10,10,0,0,0-10-10Z" transform="translate(-3.375 -3.375)" fill="#f45c3b"/>
-</svg>
-</Col>
             </Row>
             
                 <ul className='Showmore'>

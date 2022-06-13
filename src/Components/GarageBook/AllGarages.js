@@ -9,6 +9,7 @@ import {
 import { showMessage } from '../../Healper';
 import coupan from '../../Images/drawable-xxxhdpi/coupan.png';
 import cartisan from '../../Images/ImagesAll/drawable-xxxhdpi/Cartisan.png';
+import FirstChoice from '../../Images/ImagesAll/drawable-xxxhdpi/FirstChoice.png'
 import bookmark from '../../Images/drawable-xxxhdpi/drawable-xxxhdpi/bookmark.png';
 
 const AllGarages = (props) => {
@@ -50,7 +51,7 @@ const AllGarages = (props) => {
                                 <CardBody>
                                     <Row>
                                         <Col sm="4">
-                                            <img width="70%" src={cartisan} alt="Card image cap" />
+                                            <img width="70%" src={FirstChoice} alt="Card image cap" />
                                         </Col>
                                         <Col sm="4">
                                             <h6>{garages.garageName}</h6>
@@ -75,7 +76,7 @@ const AllGarages = (props) => {
                                         <Col sm="2">
                                         </Col>
                                         <Col sm="4">
-                                            <p className='OpenSans22'>&#8377;700</p>
+                                            <p className='OpenSans22'>&#8377;{garages.price}</p>
                                         </Col>
                                     </Row>
                                     <div className='coupancont'>

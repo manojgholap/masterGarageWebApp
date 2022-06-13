@@ -11,18 +11,29 @@ import Profile from './Profile'
 import axios from 'axios';
 const Login = ({ show }) => {
    const [isLogin, setLogin] = useState(false);
-   const [user,setUser]=useState('')
+   const [user, setUser] = useState('')
    useEffect(() => {
       let mobileNumber = localStorage.getItem("mobileNumber");
-      console.log(mobileNumber);
-      if (mobileNumber) {
-         axios.post(process.env.REACT_APP_Api_Url+"user/getUserDetails", { mobileNumber: mobileNumber })
-            .then((res, err) => {
-            if(res.data.status==true){
-               setUser(res.data.resp)
-               setLogin(true)
-            }   
-            })
+      const isLogin = localStorage.getItem('isLogin');
+      console.log(isLogin);
+      if (isLogin) {
+         axios({
+            method:"GET",
+            url:process.env.REACT_APP_Master_Garage + "user/getOwnerDetails.php",
+            params:{phone_no:mobileNumber}
+         }).then((res)=>{
+          if(res.data.success==1){
+            setUser(res.data.result)
+            setLogin(true)
+          }
+         })
+         // axios.post(process.env.REACT_APP_Api_Url + "user/getUserDetails", { mobileNumber: mobileNumber })
+         //    .then((res, err) => {
+         //       if (res.data.status == true) {
+         //          setUser(res.data.resp)
+         //          setLogin(true)
+         //       }
+         //    })
       }
 
    }, [isLogin])

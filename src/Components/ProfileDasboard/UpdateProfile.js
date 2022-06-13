@@ -6,13 +6,13 @@ import axios from "axios";
 import Login from "../Login";
 import { showMessage } from "../../Healper";
 const UpdateProfile = (user) => {
-    const profilePhoto = user.user.profilePhoto
-    const [firstName,setFirstName]=useState(user.user.firstName||'')
-    const [lastName,setLastName]=useState(user.user.lastName||'')
+    const profilePhoto = user.user.imageUri
+    const [firstName,setFirstName]=useState(user.user.first_name||'')
+    const [lastName,setLastName]=useState(user.user.last_name||'')
     const [email,setEmail]=useState(user.user.email||'')
-    const [mobileNumber,setMobileNumber]=useState(user.user.mobileNumber||'')
-    const [alternateMobileNumber,setAlternateMobile]=useState(user.user.alternateMobileNumber||'')
-    const [dob,setDob]=useState(user.user.dateOfBirth)
+    const [mobileNumber,setMobileNumber]=useState(user.user.phone_no||'')
+    const [alternateMobileNumber,setAlternateMobile]=useState(user.user.alternate_phone||'')
+    const [dob,setDob]=useState(user.user.dob)
     const [gender,setGender]=useState(user.user.gender||'')
     const [homeAddress,setHomeAddress]=useState(user.user.homeAddress||'')
     const [otherAddress,setOtherAddress]=useState(user.user.otherAddress||'')

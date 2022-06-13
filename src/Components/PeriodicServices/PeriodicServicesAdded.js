@@ -26,56 +26,57 @@ import Estimate from './../../Images/drawable-xxhdpi/estimate.png'
 import Garages from '../GarageBook/Garages';
 
 function PeriodicServiceAdded(props) {
-   
+
     return <>
-        <div className="progressbar">
-            <div className="prog">
-            </div>
-            <div className="pagesize1"><li></li><li>|</li><li>|</li><li>|</li><li>|</li><li></li></div>
-            <div className="pagesize">
-                <li>E</li>
-                <li>Vehical</li>
-                <li>Service</li>
-                <li>Garage</li>
-                <li>Basic</li>
-                <li>F</li>
-            </div>
-        </div>
-        <div className='container-fluid px-5'>
-
-            <Row>
-                <Col sm={4} >
-                    <div class="boxlast py-3 px-3" style={{ textAlign: 'Left' }}>
-                        <Row className='m-3'>
-                            <Col sm={8}>
-                                <p className='poppins18B'>{props.car.car}</p>
-                                <p className='poppins12light'>{props.car.fueltype}</p>
-
-                            </Col>
-                            <Col sm={4}><img src={`${process.env.REACT_APP_Api_Url}models/${props.car.make}/${props.car.car}.jpeg`} style={{ height: '80px', float: 'right', width: '120px' }} alt="error"></img></Col>
-                            <h6 style={{ color: 'red' }} ><i class="far fa-edit" ></i>edit</h6>
-                        </Row>
-                        <hr size="3" color="black" />
-
-                        {props.isServiceSelect?<Garages isServiceSelect={props.isServiceSelect} isGarageSelect={props.isGarageSelect} setGarageSelected={props.setGarageSelected}></Garages>:<><Row>
-                            <div  style={{ textAlign: 'center' }}>
-                                    <img src={Estimate}  alt="error"></img>
-                               </div>
-                        </Row>
-
-                        <Row style={{ textAlign: 'center',marginBottom:"50px" }}>
-                            <div style={{ textAlign: 'center',marginBottom:"50px" }}>
-                               
-                                <p style={{ fontSize: '20px', color: 'blue' }}>No Estimates yet!</p>
-                                <i class="fas fa-shopping-cart"></i> Start adding service to your cart to see prices</div>
-
-                        </Row></>}
+        {props.isServiceSelect.length > 0 ?
+            <Garages isServiceSelect={props.isServiceSelect} car={props.car} setChangeCar={props.setChangeCar} isGarageSelect={props.isGarageSelect} setCarSelect={props.setCarSelect} setGarageSelected={props.setGarageSelected}></Garages>
+            :
+            <>
+                <div className="progressbar">
+                    <div className="prog2">
                     </div>
-                </Col>
-            </Row>
+                    <div className="pagesize1"><li></li><li>|</li><li>|</li><li>|</li><li>|</li><li></li></div>
+                    <div className="pagesize">
+                        <li>E</li>
+                        <li>Vehical</li>
+                        <li>Service</li>
+                        <li>Garage</li>
+                        <li>Basic</li>
+                        <li>F</li>
+                    </div>
+                </div>
+                <div className='container-fluid px-5'>
 
-        </div>
+                    <Row>
+                        <Col sm={4} >
+                            <div class="boxlast py-3 px-3" style={{ textAlign: 'Left' }}>
+                                <Row className='m-3'>
+                                    <Col sm={8}>
+                                        <p className='poppins18B'>{props.car.car}</p>
+                                        <p className='poppins12light'>{props.car.fueltype.toUpperCase()}</p>
+                                        <h6 style={{ color: 'red', cursor: "pointer" }} onClick={() => { props.setChangeCar(true); props.setCarSelect(false) }} ><i class="far fa-edit" ></i>change</h6>
+                                    </Col>
+                                    <Col sm={4}><img src={`${process.env.REACT_APP_Api_Url}models/${props.car.make}/${props.car.car}.jpeg`} style={{ height: '90px', float: 'right', width: '140px' }} alt="error"></img></Col>
+                                </Row>
+                                <hr size="3" color="black" />
+                                <><Row>
+                                    <div style={{ textAlign: 'center' }}>
+                                        <img src={Estimate} alt="error"></img>
+                                    </div>
+                                </Row>
 
+                                    <Row style={{ textAlign: 'center', marginTop: "50px" }}>
+                                        <div style={{ textAlign: 'center', marginBottom: "50px" }}>
+                                            <p style={{ fontSize: '20px', color: 'blue' }}>No Estimates yet!</p>
+                                            <i class="fas fa-shopping-cart"></i> Start adding service to your cart to see prices</div>
+                                    </Row></>
+                            </div>
+                        </Col>
+                    </Row>
+
+                </div>
+            </>
+        }
     </>
 }
 export default PeriodicServiceAdded;

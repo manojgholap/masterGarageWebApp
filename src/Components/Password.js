@@ -10,6 +10,7 @@ const Password = ({ mobileNumber }) => {
     const [password, setPassword] = useState('');
     const [repassword, setRePassword] = useState('');
     const [isAuth, setAuth] = useState(false);
+    
     function confirmPassword() {
         if (password !== repassword) {
             showMessage("info","password doesn't match");
@@ -20,12 +21,13 @@ const Password = ({ mobileNumber }) => {
             return
         }
         axios.post(process.env.REACT_APP_Api_Url+"user/setPassword",
-            { mobileNumber: mobileNumber.substring(2, 12), password: password })
+            { mobileNumber: mobileNumber.substring(2, 12), password: password,token:localStorage.getItem('token')})
             .then((res, err) => {
                 if (res.data.status == true) {
                     showMessage("success","password updated")
                     localStorage.setItem("mobileNumber", mobileNumber.substring(2, 12));
                     localStorage.setItem("isLogin",true);
+                    localStorage.removeItem('token');
                     setAuth(true)
                 }
                 else {

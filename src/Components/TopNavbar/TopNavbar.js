@@ -57,7 +57,7 @@ const TopNavbar = () => {
             <div className="navbar-toggle">
               <div>
                 <Link to="/location" className="logo">
-                  {location}<i class="fas fa-map-marker-alt"></i>
+                  <i class="fas fa-map-marker-alt"></i>
                 </Link>
               </div>
             </div>

@@ -9,9 +9,9 @@
     height:254px;
 }
 .Re_FirstBox{
-    width:100%;
+    width:auto;
     background-color: #F4F8FF;
-    height:100px;
+    height:auto;
     box-shadow:0 0 10px 0 #00000045;
 }
 .poppins25{

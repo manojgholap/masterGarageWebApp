@@ -132,6 +132,12 @@
     margin-top: 50px !important;
     margin-left: 10px !important;
 }
+.washing{
+    width:665px;
+    height:202px;
+    margin-top:20px !important;
+    margin-left: 10px !important;
+}
 .pg9color h4{
     color:#FFC107
 }
@@ -219,8 +225,6 @@
       display:flex;
       justify-content: center;
       margin-top: 40px;
-     
-   
   }
   .cardMain{
       border-radius: 10px;
@@ -507,7 +511,7 @@
        justify-content:space-between;
   }
   .row2 li {
-      margin-right:30px
+      margin-right:60px
   }
   .ServicesBG p{
       color:#01155A;

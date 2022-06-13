@@ -1,5 +1,5 @@
 * {
-    font-family: "Poppins", sans-serif;
+    font-family: "poppins", sans-serif;
 }
 .periodicadd {
     text-decoration: none;
@@ -35,6 +35,20 @@
 
 .midbar::-webkit-scrollbar {
     display: none; /* for Chrome, Safari, and Opera */
+}
+
+.toggle-price{
+    display: flex;
+}
+
+.close-batch{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: orangered;
+    padding: 0px 15px 0px 15px;
+    /* margin: 0px 0px 2px 8px; */
+    border-radius: 0px 10px 0px 10px;
 }
 
 .cartcol {
@@ -174,30 +188,34 @@
     font-family: "Open Sans", sans-serif;
     font-weight: bold;
 }
-
 ul.sidebar {
     display: block;
     padding: 0px;
-    text-decoration: none;
     list-style-type: none;
 }
 .submidtext {
-    color: rgb(38, 80, 216);
+    color: blue !important;
     font-size: 22px;
-    font-family: "Poppins";
+    /* font-family: "Poppins"; */
     font-weight: 800;
+    margin-bottom: 0;
 }
 .submidtext2 {
     font-size: 15px;
     border: none;
-    font-weight: 300;
+    font-weight: bold;
     border-left-style: solid;
     border-left-color: #4ee59d;
-    padding-left: 10px;
+    padding: 3px 3px 3px 10px;
     color: "#5D6186" !important;
+    background-color: #89e6b954;
+    color: rgb(2, 107, 2);
 }
 .searchbox {
     position: relative;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
 }
 button.recomdedbtn.btn.btn-parimay {
     float: left;
@@ -251,6 +269,10 @@ i.fas.fa-search {
     padding-left: 10px;
 }
 
+.text-dark{
+    font-weight: bold !important;
+}
+
 .btn1.btn.btn-secondary {
     background-color: #fff;
     color: blue;
@@ -268,12 +290,33 @@ i.fas.fa-search {
     margin: 0px 0px;
     border-radius: 10px;
 }
+
 .SubmidBgBox1 {
     border-radius: 10px;
     width: 603px;
-    height: 157px;
-    background-color: #f8f9fa;
+    height: auto;
+    padding: auto;
+    margin: 5px 5px 5px 5px;
+    /* background-color: #f8f9fa; */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.555);
+    position: relative;
 }
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-item-left{
+    padding: 10px;
+    flex: 80%;
+}
+
+.flex-item-right{   
+    padding: 10px;
+    flex: 20%;
+}
+
 .saveinfo img {
     margin-bottom: 40px !important;
 }
@@ -292,6 +335,7 @@ i.fas.fa-search {
 .bgcalling {
     font-size: 0.7rem !important;
 }
+
 .Re_SubmidBgBox {
     width: 100%;
     height: 165px;
@@ -341,7 +385,7 @@ i.fas.fa-search {
     position: relative;
 }
 .addvechicle {
-    width: 120px;
+    width: auto;
     height: 50px;
     background-color: #2650d8;
     color: #fff;
@@ -377,6 +421,14 @@ input:focus {
     color: #2650d8;
     font-size: 18px;
     font-weight: bold;
+}
+.circleBase {
+    border-radius: 50%;
+    box-shadow: 10px 10px 5px 12px rgb(247, 247, 247);
+}
+.type3 {
+    width: 200px;
+    height: 200px;
 }
 .addbg1 {
     border: 1px solid #eaeaea;
@@ -559,6 +611,23 @@ div.vertical-line {
     color: "red";
     font-size: "12px";
 }
+
+.midBar-comp-body{
+    width: 100%;
+    height: auto;
+}
+
+.show_more{
+    margin-right: 100px;
+}
+
+.add_vehical{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
 /*RESPONSIVENESS*/
 @media all and (min-width: 300px) and (max-width: 1024px) {
     .add_vehical {

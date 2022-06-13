@@ -54,8 +54,8 @@ function LoginBook(){
             </Row>
             <Row className='py-2'> 
                 <Col sm={8} ><SubMid></SubMid></Col>
-                <Col sm={4}  ><CartBox></CartBox></Col>
-                
+               
+   
             </Row>
 
     </div>

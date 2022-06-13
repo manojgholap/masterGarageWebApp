@@ -35,7 +35,9 @@ const Service = () => {
     },[service])
     return (
         <>
-            {service ? <HomeMain1></HomeMain1>
+            {service ?
+            
+             <HomeMain1></HomeMain1>
                 : <CompareandChoose />
             }
             {/* <Container fluid>

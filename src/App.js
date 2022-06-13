@@ -36,7 +36,9 @@ import ChaufferDeclined from './Components/HomeChauffer/ChaufferDeclined';
 import Await from './Components/GarageVerification/Await';
 import Tacking from './Components/AboutUs';
 import 'izitoast-react/dist/iziToast.css';
-
+import BBGVechicle from './Components/BookByGarage/BBGVechicleAdded'
+import Washing from './Components/Washing&Detailing/Washing&Deailing'
+import WashingService from './Components/Washing&Detailing/washingservice'
 import Dummypage from './Components/GarageBook/Dummypage';
 
 import ContactUs from './Components/Contact';
@@ -91,7 +93,7 @@ import GetCurrentLoc_Mob from './Components/MobileView/GetCurrentLoc_Mob';
 
 //RESPONSIVE LOGIN
 import Login_Mob from './Components/MobileView/Login_Mob';
-import Otp_Mob from './Components/MobileView/Otb_Mob';
+import Otp_Mob from './Components/MobileView/Otp_Mob';
 import SignUp_Mob from './Components/MobileView/SignUp_Mob';
 import Login2_Mob from './Components/MobileView/Login2_Mob';
 import Home_Mob from './Components/MobileView/Home_Mob';
@@ -106,6 +108,7 @@ import Map_Mob from './Components/MobileView/Map_Mob'
 import Garage_Mob from './Components/MobileView/Garage_Mob';
 import Timedate_sched from './Components/MobileView/Timedate_sched'
 import ConfirmBook_Mob from './Components/MobileView/ConfirmBook_Mob';
+import Password_Mob from "./Components/MobileView/Password_Mob"
 
 
 
@@ -185,186 +188,193 @@ import compareandChoose from './Components/Compare';
 import Routes from './Components/dashborad/Routes';
 import MobAccount from './Components/Account/Routing/MobAccount';
 import { makeid } from './Healper';
+import dummypage from './Components/GarageBook/Dummypage';
 function App() {
+  const isLogin = localStorage.getItem('isLogin');
+  const isToken = localStorage.getItem('token');
+
   useEffect(() => {
-    const token = localStorage.getItem('token')
-    if (token) {
-      console.log(localStorage.getItem('token'));
-    } else {
+    if (isLogin=="false") {
+      if(isToken){
+        return
+      }
       const token = makeid(10);
       localStorage.setItem("token", token);
-      localStorage.setItem("isLogin",false)
     }
-  }, [])
+  },[])
   return (
     <div className="App">
       <header className="App-header">
         <BrowserRouter>
           <TopNavbar></TopNavbar>
           {/* <UserAuthContextProvider> */}
-            <Switch>
-              <Route path='/' exact component={Home} />
-              <Route path='/home' component={Home} />
-              <Route path='/Dummypage' component={Dummypage} />
-              {/* <Route path='/' exact component={Login_Mob}/> */}
-              <Route path='/HomeMaintain' component={HomeMaintain} />
-              <Route path='/HomeMain1' component={HomeMain1} />
-              <Route path="/Confirmbook" component={Aboutus} />
-              <Route path='/joinus' component={JoiinUs} />
-              <Route path='/services' component={Services} />
-              <Route path='/faq' component={Faq} />
-              <Route path='/contact' component={ContactUs} />
-              <Route path='/booking1' component={Booking1} />
-              <Route path='/confirmbooking' component={ConfirmBooking} />
-              <Route path='/modifyreview' component={modifyreview} />
-              <Route path="/Vehicaldelivery" component={Vehicaldelivery} />
-              <Route path="/login" component={Login} />
-              <Route path="/login2" component={Login2} />
-              <Route path="/signup" component={Signup} />
-              <Route path="/otp" component={Otp} />
-              <Route path="/Resetpass" component={Resetpass} />
-              <Route path="/profile" component={Profile} />
-              <Route path="/profileDashboard" component={ProfileDashboard} />
-              <Route path="/MyGarage" component={MyGarage} />
-              <Route path="/MyOrder" component={MyOrder} />
-              <Route path="/Chats" component={Chats} />
-              <Route path="/Favourites" component={Favourites} />
-              <Route path="/MgCoin" component={MgCoin} />
-              <Route path="/HelpsSupport" component={HelpsSupport} />
-              <Route path="/Refer" component={Refer} />
-              <Route path="/payment" component={Payment} />
-              <Route path="/thanking" component={Thanking} />
-              <Route path="/Chat" component={Chat} />
-              {/* <Route path="/Sidebar" component={Sidebar}/> */}
-              <Route path="/jobprogress" component={Jobcardprogress} />
-              <Route path="/Nextcarprogress" component={Nextcarprogress} />
-              <Route path="/Accountscan" component={Accountscan} />
-              <Route path="/Routes" component={Routes1} />
-              <Route path="/location" component={Location} />
-              <Route path="/notification" component={Notification} />
-              <Route path="/location1" component={Location1} />
-              <Route path="/search" component={Search} />
-              <Route path="/addvehical" component={Addvehical} />
-              <Route path="/addinstruction" component={Addinstruction} />
-              <Route path="/addchauffer" component={AddChauffer} />
-              <Route path="/PeriodicService" component={Periodic} />
-              <Route path="/PeriodicADDvechicle" component={PeriodicADDvechicle} />
-              <Route path="/PeriodicServiceAdded" component={PeriodicServiceAdded} />
-              <Route path="/BasicShowmore" component={BasicShowmore} />
-              <Route path="/ServiceEstimates" component={ServiceEstimates} />
-              <Route path="/BookGarage" component={BookGarage} />
-              <Route path="/LoginGarage" component={LoginBook} />
-              <Route path="/vehicalqr" component={Vehicalqr} />
-              <Route path="/Bookingid" component={Bookingid} />
-              <Route path="/Mgcoinredeem" component={Mgcoinredeem} />
-              <Route path="/Moreredeem" component={Moreredeem} />
-              <Route path="/Adaddress" component={Address} />
-              <Route path="/PaymentGarage" component={PayBook} />
-              <Route path="/Paynow" component={PayNow} />
-              <Route path="/ScheduleBook" component={ScheduleBook} />
-              <Route path="/HomeChallan" component={HomeChallan} />
-              <Route path="/DueChallan" component={DueChallan} />
-              <Route path="/DueChallan1" component={DueChallan1} />
-              <Route path="/HomeFasTag" component={HomeFasTag} />
-              <Route path="/BuyFastag" component={BuyFastag} />
-              <Route path="/FastagOrder" component={FastagSucessful} />
-              <Route path="/RechargeFastag" component={RechargeFasTag} />
-              <Route path="/RechargeFastag1" component={RechargeFastag1} />
-              <Route path="/RechargeSucessful" component={RechargeSucessful} />
-              <Route path="/ActivateFastag" component={ActFastag} />
-              <Route path="/ActivateFastag1" component={ActivateFastag1} />
-              <Route path="/ActivateFastag2" component={ActivateFastag2} />
-              <Route path="/ChaufferBook" component={ChaufferBook} />
-              <Route path="/ChaufferBooked" component={ChaufferBooked} />
-              <Route path="/ChaufferAwait" component={ChaufferAwait} />
-              <Route path="/Await" component={Await} />
-              <Route path="/AwaitConfirm" component={AwaitConfirm} />
-              <Route path="/ChaufferDeclined" component={ChaufferDeclined} />
-              <Route path="/ChaufferHome" component={ChaufferHome} />
-              <Route path="/bokking" component={bokking} />
-              <Route path="/Outdelivery" component={Outdelivery} />
-              <Route path="/compareandChoose" component={compareandChoose} />
-              {/* tracking  car*/}
-              <Route path="/CartTrack2" component={CartTrack2} />
-              <Route path="/Carttrack3" component={Carttrack3} />
-              <Route path="/Carttrack4" component={Carttrack4} />
-              <Route path="/Carttrack5" component={Carttrack5} />
-              <Route path="/TrackFinish" component={TrackFinish} />
+          <Switch>
+            <Route path='/' exact component={Home} />
+            <Route path='/home' component={Home} />
+            <Route path='/Washing' component={Washing} />
+            <Route path='/WashingService' component={WashingService} />
+            <Route path='/BBGVechicle' component={BBGVechicle} />
+            {/* <Route path='/' exact component={Login_Mob}/> */}
+            <Route path='/HomeMaintain' component={HomeMaintain} />
+            <Route path='/HomeMain1' component={HomeMain1} />
+            <Route path="/Confirmbook" component={Aboutus} />
+            <Route path='/joinus' component={JoiinUs} />
+            <Route path='/services' component={Services} />
+            <Route path='/faq' component={Faq} />
+            <Route path='/contact' component={ContactUs} />
+            <Route path='/booking1' component={Booking1} />
+            <Route path='/confirmbooking' component={ConfirmBooking} />
+            <Route path='/modifyreview' component={modifyreview} />
+            <Route path="/Vehicaldelivery" component={Vehicaldelivery} />
+            <Route path="/login" component={Login} />
+            <Route path="/login2" component={Login2} />
+            <Route path="/signup" component={Signup} />
+            <Route path="/otp" component={Otp} />
+            <Route path="/Resetpass" component={Resetpass} />
+            <Route path="/profile" component={Profile} />
+            <Route path="/profileDashboard" component={ProfileDashboard} />
+            <Route path="/MyGarage" component={MyGarage} />
+            <Route path="/MyOrder" component={MyOrder} />
+            <Route path="/Chats" component={Chats} />
+            <Route path="/Favourites" component={Favourites} />
+            <Route path="/MgCoin" component={MgCoin} />
+            <Route path="/HelpsSupport" component={HelpsSupport} />
+            <Route path="/Refer" component={Refer} />
+            <Route path="/payment" component={Payment} />
+            <Route path="/thanking" component={Thanking} />
+            <Route path="/Chat" component={Chat} />
+            {/* <Route path="/Sidebar" component={Sidebar}/> */}
+            <Route path="/jobprogress" component={Jobcardprogress} />
+            <Route path="/Nextcarprogress" component={Nextcarprogress} />
+            <Route path="/Accountscan" component={Accountscan} />
+            <Route path="/Routes" component={Routes1} />
+            <Route path="/location" component={Location} />
+            <Route path="/notification" component={Notification} />
+            <Route path="/location1" component={Location1} />
+            <Route path="/search" component={Search} />
+            <Route path="/addvehical" component={Addvehical} />
+            <Route path="/addinstruction" component={Addinstruction} />
+            <Route path="/addchauffer" component={AddChauffer} />
+            <Route path="/PeriodicService" component={Periodic} />
+            <Route path="/PeriodicADDvechicle" component={PeriodicADDvechicle} />
+            <Route path="/PeriodicServiceAdded" component={PeriodicServiceAdded} />
+            <Route path="/BasicShowmore" component={BasicShowmore} />
+            <Route path="/ServiceEstimates" component={ServiceEstimates} />
+            <Route path="/BookGarage" component={BookGarage} />
+            <Route path="/LoginGarage" component={LoginBook} />
+            <Route path="/vehicalqr" component={Vehicalqr} />
+            <Route path="/Bookingid" component={Bookingid} />
+            <Route path="/Mgcoinredeem" component={Mgcoinredeem} />
+            <Route path="/Moreredeem" component={Moreredeem} />
+            <Route path="/Adaddress" component={Address} />
+            <Route path="/PaymentGarage" component={PayBook} />
+            <Route path="/Paynow" component={PayNow} />
+            <Route path="/ScheduleBook" component={ScheduleBook} />
+            <Route path="/HomeChallan" component={HomeChallan} />
+            <Route path="/DueChallan" component={DueChallan} />
+            <Route path="/DueChallan1" component={DueChallan1} />
+            <Route path="/HomeFasTag" component={HomeFasTag} />
+            <Route path="/BuyFastag" component={BuyFastag} />
+            <Route path="/FastagOrder" component={FastagSucessful} />
+            <Route path="/RechargeFastag" component={RechargeFasTag} />
+            <Route path="/RechargeFastag1" component={RechargeFastag1} />
+            <Route path="/RechargeSucessful" component={RechargeSucessful} />
+            <Route path="/ActivateFastag" component={ActFastag} />
+            <Route path="/ActivateFastag1" component={ActivateFastag1} />
+            <Route path="/ActivateFastag2" component={ActivateFastag2} />
+            <Route path="/ChaufferBook" component={ChaufferBook} />
+            <Route path="/ChaufferBooked" component={ChaufferBooked} />
+            <Route path="/ChaufferAwait" component={ChaufferAwait} />
+            <Route path="/Await" component={Await} />
+            <Route path="/AwaitConfirm" component={AwaitConfirm} />
+            <Route path="/ChaufferDeclined" component={ChaufferDeclined} />
+            <Route path="/ChaufferHome" component={ChaufferHome} />
+            <Route path="/bokking" component={bokking} />
+            <Route path="/Outdelivery" component={Outdelivery} />
+            <Route path="/compareandChoose" component={compareandChoose} />
+            {/* tracking  car*/}
+            <Route path="/CartTrack2" component={CartTrack2} />
+            <Route path="/Carttrack3" component={Carttrack3} />
+            <Route path="/Carttrack4" component={Carttrack4} />
+            <Route path="/Carttrack5" component={Carttrack5} />
+            <Route path="/TrackFinish" component={TrackFinish} />
 
-              {/*MOBILE RESPONSIVE*/}
-              <Route path="/Login2_Mob" component={Login2_Mob} />
-              <Route path="/SignUp_Mob" component={SignUp_Mob} />
-              <Route path="/Otp_Mob" component={Otp_Mob} />
-              <Route path="/Home_Mob" component={Home_Mob} />
-              <Route path="/Mob_tracking" component={Mob_tracking} />
-              <Route path="/Mob_Secedule" component={Mob_Secedule} />
-              <Route path="/Mob_Track2" component={Mob_Track2} />
-              <Route path="/Mob_Track3" component={Mob_Track3} />
-              <Route path="/Mob_Track4" component={Mob_Track4} />
-              <Route path="/Vehical_history" component={Vehical_history} />
-              <Route path="/Vehical_Add" component={Vehical_Add} />
-              <Route path="/Service_Mob" component={Service_Mob} />
-              <Route path="/vehicla_mob" component={vehicla_mob} />
-              <Route path="/Service_Add" component={Service_Add} />
-              <Route path="/Service_Added" component={Service_Added} />
-              <Route path="/Estimate_Mob" component={Estimate_Mob} />
-              <Route path="/Map_Mob" component={Map_Mob} />
-              <Route path="/Garage_Mob" component={Garage_Mob} />
-              <Route path="/Timedate_sched" component={Timedate_sched} />
-              <Route path="/SelectPayment_mob" component={SelectPayment_mob} />
-              <Route path="/PaySuccess_Mob" component={PaySuccess_Mob} />
-              <Route path="/PlaceOrder_Mob" component={PlaceOrder_Mob} />
-              <Route path="/Congratulation_Mob" component={Congratulation_Mob} />
-              <Route path="/GarageNotAvailable_Mob" component={GarageNotAvailable_Mob} />
-              <Route path="/BookingCancle_Mob" component={BookingCancle_Mob} />
-              <Route path="/SelectMap_Mob" component={SelectMap_Mob} />
-              <Route path="/SaveAdd_Mob" component={SaveAdd_Mob} />
-              <Route path="/GetCurrentLoc_Mob" component={GetCurrentLoc_Mob} />
-              <Route path="/ConfirmBook_Mob" component={ConfirmBook_Mob} />
-              <Route path="/mobaccount" component={MobAccount} />
+            {/*MOBILE RESPONSIVE*/}
+            <Route path="/Login2_Mob" component={Login2_Mob} />
+            <Route path="/Login_Mob" component={Login_Mob} />
+            <Route path="/Password_Mob" component={Password_Mob} />
+            <Route path="/SignUp_Mob" component={SignUp_Mob} />
+            <Route path="/Otp_Mob" component={Otp_Mob} />
+            <Route path="/Home_Mob" component={Home_Mob} />
+            <Route path="/Mob_tracking" component={Mob_tracking} />
+            <Route path="/Mob_Secedule" component={Mob_Secedule} />
+            <Route path="/Mob_Track2" component={Mob_Track2} />
+            <Route path="/Mob_Track3" component={Mob_Track3} />
+            <Route path="/Mob_Track4" component={Mob_Track4} />
+            <Route path="/Vehical_history" component={Vehical_history} />
+            <Route path="/Vehical_Add" component={Vehical_Add} />
+            <Route path="/Service_Mob" component={Service_Mob} />
+            <Route path="/vehicla_mob" component={vehicla_mob} />
+            <Route path="/Service_Add" component={Service_Add} />
+            <Route path="/Service_Added" component={Service_Added} />
+            <Route path="/Estimate_Mob" component={Estimate_Mob} />
+            <Route path="/Map_Mob" component={Map_Mob} />
+            <Route path="/Garage_Mob" component={Garage_Mob} />
+            <Route path="/Timedate_sched" component={Timedate_sched} />
+            <Route path="/SelectPayment_mob" component={SelectPayment_mob} />
+            <Route path="/PaySuccess_Mob" component={PaySuccess_Mob} />
+            <Route path="/PlaceOrder_Mob" component={PlaceOrder_Mob} />
+            <Route path="/Congratulation_Mob" component={Congratulation_Mob} />
+            <Route path="/GarageNotAvailable_Mob" component={GarageNotAvailable_Mob} />
+            <Route path="/BookingCancle_Mob" component={BookingCancle_Mob} />
+            <Route path="/SelectMap_Mob" component={SelectMap_Mob} />
+            <Route path="/SaveAdd_Mob" component={SaveAdd_Mob} />
+            <Route path="/GetCurrentLoc_Mob" component={GetCurrentLoc_Mob} />
+            <Route path="/ConfirmBook_Mob" component={ConfirmBook_Mob} />
+            <Route path="/mobaccount" component={MobAccount} />
 
 
-              {/* SIDEBAR MOBILE */}
-              <Route path="/Edit_Mob" component={Edit_Mob} />
-              <Route path="/MgWallet_Mob" component={MgWallet_Mob} />
-              <Route path="/MgWalletEmpty_Mob" component={MgWalletEmpty_Mob} />
-              <Route path="/MgCoinDeal_Mob" component={MgCoinDeal_Mob} />
-              <Route path="/MgCoinHis_Mob" component={MgCoinHis_Mob} />
-              <Route path="/MgCoinFaq_Mob" component={MgCoinFaq_Mob} />
-              <Route path="/MgCoinhTw_Mob" component={MgCoinhTw_Mob} />
-              <Route path="/MgCoinFill_Mob" component={MgCoinFill_Mob} />
-              <Route path="/SubmitGarage" component={SubmitGarage} />
-              <Route path="/GarageAddVeh_Mob" component={GarageAddVeh_Mob} />
-              <Route path="/EmptyEstimate_Mob" component={EmptyEstimate_Mob} />
-              <Route path="/SaveEstimate_Mob" component={SaveEstimate_Mob} />
-              <Route path="/RecentOrderEsti_Mob" component={RecentOrderEsti_Mob} />
-              <Route path="/OrderEmpty_Mob" component={OrderEmpty_Mob} />
-              <Route path="/OngoingOrder_Mob" component={OngoingOrder_Mob} />
-              <Route path="/OrderHis_Mob" component={OrderHis_Mob} />
-              <Route path="/HelpSupEmpty_Mob" component={HelpSupEmpty_Mob} />
-              <Route path="/MyTicket_Mob" component={MyTicket_Mob} />
-              <Route path="/HelpTicke_Mob" component={HelpTicke_Mob} />
-              <Route path="/HelpFaq_Mob" component={HelpFaq_Mob} />
+            {/* SIDEBAR MOBILE */}
+            <Route path="/Edit_Mob" component={Edit_Mob} />
+            <Route path="/MgWallet_Mob" component={MgWallet_Mob} />
+            <Route path="/MgWalletEmpty_Mob" component={MgWalletEmpty_Mob} />
+            <Route path="/MgCoinDeal_Mob" component={MgCoinDeal_Mob} />
+            <Route path="/MgCoinHis_Mob" component={MgCoinHis_Mob} />
+            <Route path="/MgCoinFaq_Mob" component={MgCoinFaq_Mob} />
+            <Route path="/MgCoinhTw_Mob" component={MgCoinhTw_Mob} />
+            <Route path="/MgCoinFill_Mob" component={MgCoinFill_Mob} />
+            <Route path="/SubmitGarage" component={SubmitGarage} />
+            <Route path="/GarageAddVeh_Mob" component={GarageAddVeh_Mob} />
+            <Route path="/EmptyEstimate_Mob" component={EmptyEstimate_Mob} />
+            <Route path="/SaveEstimate_Mob" component={SaveEstimate_Mob} />
+            <Route path="/RecentOrderEsti_Mob" component={RecentOrderEsti_Mob} />
+            <Route path="/OrderEmpty_Mob" component={OrderEmpty_Mob} />
+            <Route path="/OngoingOrder_Mob" component={OngoingOrder_Mob} />
+            <Route path="/OrderHis_Mob" component={OrderHis_Mob} />
+            <Route path="/HelpSupEmpty_Mob" component={HelpSupEmpty_Mob} />
+            <Route path="/MyTicket_Mob" component={MyTicket_Mob} />
+            <Route path="/HelpTicke_Mob" component={HelpTicke_Mob} />
+            <Route path="/HelpFaq_Mob" component={HelpFaq_Mob} />
 
-              <Route path="/Register_Mob" component={Register_Mob} />
-              <Route path="/ActiveTab_Mob" component={ActiveTab_Mob} />
-              <Route path="/ContactOwnerVeh_Mob" component={ContactOwnerVeh_Mob} />
-              <Route path="/OtpVeri__Mob" component={OtpVeri__Mob} />
-              <Route path="/Qrcode_Mob" component={Qrcode_Mob} />
+            <Route path="/Register_Mob" component={Register_Mob} />
+            <Route path="/ActiveTab_Mob" component={ActiveTab_Mob} />
+            <Route path="/ContactOwnerVeh_Mob" component={ContactOwnerVeh_Mob} />
+            <Route path="/OtpVeri__Mob" component={OtpVeri__Mob} />
+            <Route path="/Qrcode_Mob" component={Qrcode_Mob} />
 
-              <Route path="/Refer_Mob" component={Refer_Mob} />
-              <Route path="/ChatEmpty_Mob" component={ChatEmpty_Mob} />
-              <Route path="/Chat_Mob" component={Chat_Mob} />
-              <Route path="/Fastage_Mob" component={Fastage_Mob} />
-              <Route path="/ActiveFastage_Mob" component={ActiveFastage_Mob} />
-              <Route path="/RechargeCard_Mob" component={RechargeCard_Mob} />
-              <Route path="/RechargeCoupan_Mob" component={RechargeCoupan_Mob} />
-              <Route path="/RechargeSuccess_Mob" component={RechargeSuccess_Mob} />
-              <Route path="/PassbookEmpty_Mob" component={PassbookEmpty_Mob} />
-              <Route path="/PassbookVehNo_Mob" component={PassbookVehNo_Mob} />
-              <Route path="/PassbookVehical_Mob" component={PassbookVehical_Mob} />
-              <Route path="/ActiveCard_Mob" component={ActiveCard_Mob} />
-            </Switch>
+            <Route path="/Refer_Mob" component={Refer_Mob} />
+            <Route path="/ChatEmpty_Mob" component={ChatEmpty_Mob} />
+            <Route path="/Chat_Mob" component={Chat_Mob} />
+            <Route path="/Fastage_Mob" component={Fastage_Mob} />
+            <Route path="/ActiveFastage_Mob" component={ActiveFastage_Mob} />
+            <Route path="/RechargeCard_Mob" component={RechargeCard_Mob} />
+            <Route path="/RechargeCoupan_Mob" component={RechargeCoupan_Mob} />
+            <Route path="/RechargeSuccess_Mob" component={RechargeSuccess_Mob} />
+            <Route path="/PassbookEmpty_Mob" component={PassbookEmpty_Mob} />
+            <Route path="/PassbookVehNo_Mob" component={PassbookVehNo_Mob} />
+            <Route path="/PassbookVehical_Mob" component={PassbookVehical_Mob} />
+            <Route path="/ActiveCard_Mob" component={ActiveCard_Mob} />
+          </Switch>
           {/* </UserAuthContextProvider> */}
         </BrowserRouter>
 
